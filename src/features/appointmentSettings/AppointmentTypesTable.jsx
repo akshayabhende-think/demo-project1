@@ -10,7 +10,7 @@ const TABLE_SCROLL = { y: 345, x: 900 };
 
 const AppointmentTypesTable = ({ data, loading }) => {
     const handleRowAction = useCallback((key, record) => {
-        console.log("Appointment type action", key, record);
+        // console.log("Appointment type action", key, record);
     }, []);
 
     const columns = useMemo(
