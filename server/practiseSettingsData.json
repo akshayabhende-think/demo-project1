@@ -1,0 +1,37 @@
+{
+  "locations": [
+    { "id": 1, "locationId": "24093", "locationName": "Moore", "address": "6502 Preston Rd. Inglewood, Maine 98380", "contactNumber": "(303) 555-0105", "status": "Active" },
+    { "id": 2, "locationId": "540982", "locationName": "Midwest", "address": "6391 Elgin St. Celina, Delaware 10299", "contactNumber": "(229) 555-0109", "status": "Active" },
+    { "id": 3, "locationId": "34546", "locationName": "Mansfield", "address": "4140 Parker Rd. Allentown, New Mexico 31134", "contactNumber": "(808) 555-0111", "status": "Inactive" },
+    { "id": 4, "locationId": "2438", "locationName": "NW Oklahoma", "address": "1901 Thornridge Cir. Shiloh, Hawaii 81063", "contactNumber": "(217) 555-0113", "status": "Active" },
+    { "id": 5, "locationId": "78201", "locationName": "Riverside", "address": "8502 Maple Ave., Riverside, California 92501", "contactNumber": "(951) 555-0117", "status": "Active" },
+    { "id": 6, "locationId": "10394", "locationName": "Oakwood", "address": "3201 Oak Park Blvd., Dayton, Ohio 45324", "contactNumber": "(937) 555-0123", "status": "Inactive" }
+  ],
+  "users": [
+    { "id": 1, "name": "Jerome Bell", "role": "Receptionist", "lastLogin": "2022-04-22 | 02:25 PM", "phone": "569-822-4144", "email": "Arlenemccoy@gmail.com", "status": "Active", "initials": "JB", "color": "#fb7185" },
+    { "id": 2, "name": "Wade Warren", "role": "LPHA", "lastLogin": "2022-04-22 | 02:25 PM", "phone": "569-822-4144", "email": "Arlenemccoy@gmail.com", "status": "Inactive", "initials": "WW", "color": "#a78bfa" },
+    { "id": 3, "name": "Courtney Henry", "role": "Counsellor", "lastLogin": "2022-04-22 | 02:25 PM", "phone": "569-822-4144", "email": "Arlenemccoy@gmail.com", "status": "Active", "initials": "CH", "color": "#fbbf24" },
+    { "id": 4, "name": "Jenny Wilson", "role": "LPHA", "lastLogin": "2022-04-22 | 02:25 PM", "phone": "569-822-4144", "email": "Arlenemccoy@gmail.com", "status": "Active", "initials": "JW", "color": "#94a3b8" },
+    { "id": 5, "name": "Albert Flores", "role": "LPHA", "lastLogin": "2022-04-22 | 02:25 PM", "phone": "569-822-4144", "email": "Arlenemccoy@gmail.com", "status": "Active", "initials": "AF", "color": "#60a5fa" },
+    { "id": 6, "name": "Cody Fisher", "role": "Counsellor", "lastLogin": "2022-04-22 | 02:25 PM", "phone": "569-822-4144", "email": "Arlenemccoy@gmail.com", "status": "Active", "initials": "CF", "color": "#fbbf24" },
+    { "id": 7, "name": "Brooklyn Simmons", "role": "LPHA", "lastLogin": "2022-04-22 | 02:25 PM", "phone": "569-822-4144", "email": "Arlenemccoy@gmail.com", "status": "Inactive", "initials": "BS", "color": "#a78bfa" },
+    { "id": 8, "name": "Esther Howard", "role": "Admin", "lastLogin": "2022-04-22 | 02:25 PM", "phone": "569-822-4144", "email": "Arlenemccoy@gmail.com", "status": "Active", "initials": "EH", "color": "#34d399" }
+  ],
+  "roles": [
+    { "id": 1, "roleType": "Counsellor", "role": "Substance Abuse Counsellor", "description": "Guides patients through addiction recovery, relapse prevention planning, and ongoing therapeutic support." },
+    { "id": 2, "roleType": "Admin", "role": "Facility Administrator", "description": "Oversees daily operations, regulatory compliance, staffing, and overall facility performance." },
+    { "id": 3, "roleType": "LPHA", "role": "Clinical Psychologist", "description": "Performs psychological testing, diagnostic evaluations, and therapeutic interventions." },
+    { "id": 4, "roleType": "LPHA", "role": "Psychiatric Nurse Practitioner", "description": "Diagnoses psychiatric conditions, manages treatment plans, and prescribes medications when authorized." },
+    { "id": 5, "roleType": "Admin", "role": "Operations Manager", "description": "Supervises workflows, staffing coordination, and service delivery performance." },
+    { "id": 6, "roleType": "Counsellor", "role": "Clinical Counsellor", "description": "Delivers licensed clinical assessments, diagnosis, and therapeutic mental health treatment." },
+    { "id": 7, "roleType": "Receptionist", "role": "Patient Coordinator", "description": "Coordinates appointments, referrals, documentation, and ongoing patient communication." },
+    { "id": 8, "roleType": "LPHA", "role": "Medical Director", "description": "Leads clinical governance, oversees treatment standards, and ensures medical compliance." },
+    { "id": 9, "roleType": "Counsellor", "role": "Clinical Counsellor", "description": "Delivers licensed clinical assessments, diagnosis, and therapeutic mental health treatment." },
+    { "id": 10, "roleType": "Receptionist", "role": "Front Desk Executive", "description": "Manages patient check-in, appointment scheduling, and front-office communication tasks." },
+    { "id": 11, "roleType": "LPHA", "role": "Medical Director", "description": "Leads clinical governance, oversees treatment standards, and ensures medical compliance." },
+    { "id": 12, "roleType": "Receptionist", "role": "Patient Coordinator", "description": "Coordinates appointments, referrals, documentation, and ongoing patient communication." },
+    { "id": 13, "roleType": "Counsellor", "role": "Marriage Counsellor", "description": "Provides relationship counseling, communication coaching, and conflict resolution support." },
+    { "id": 14, "roleType": "LPHA", "role": "Licensed Therapist", "description": "Provides individual and group therapy sessions for mental and behavioral health concerns." },
+    { "id": 15, "roleType": "Admin", "role": "Practice Manager", "description": "Oversees billing, scheduling, and overall day-to-day operations of the practice." }
+  ]
+}
