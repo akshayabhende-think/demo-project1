@@ -1,0 +1,6 @@
+{
+  "patientFlags": [
+    { "id": 1, "name": "cold", "color": "#22d3ee", "flags": 7, "updatedDate": "04/20/2026", "createdDate": "04/20/2026" },
+    { "id": 2, "name": "xyz", "color": "#facc15", "flags": 2, "updatedDate": "04/28/2026", "createdDate": "04/28/2026" }
+  ]
+}
