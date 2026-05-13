@@ -1,0 +1,24 @@
+{
+  "clients": [
+    { "id": 34, "name": "Smith A", "dob": "06/12/1972", "email": "smith@gmai.com", "primaryCounselor": null, "program": null, "group": null },
+    { "id": 33, "name": "Feni h", "dob": "11/03/1959", "email": "feni@gmail.com", "primaryCounselor": null, "program": null, "group": null },
+    { "id": 32, "name": "June Shay Kim", "dob": "03/13/2004", "email": "june@gmail.com", "primaryCounselor": null, "program": null, "group": null },
+    { "id": 23, "name": "dummy Hunter", "dob": "06/08/1972", "email": "dum@gmail.com", "primaryCounselor": null, "program": null, "group": null },
+    { "id": 22, "name": "Shiv Test", "dob": "02/06/1992", "email": "admin@newconnection.com", "primaryCounselor": null, "program": null, "group": null },
+    { "id": 21, "name": "Sid T", "dob": "06/02/1973", "email": "pawan.kathar+43@thinkitive.com", "primaryCounselor": null, "program": null, "group": null },
+    { "id": 20, "name": "Pranay Prabhate", "dob": "01/15/2026", "email": "Test@gmail.com", "primaryCounselor": null, "program": null, "group": null },
+    { "id": 19, "name": "Eve Christian", "dob": "09/19/2020", "email": "eve@gmail.com", "primaryCounselor": null, "program": null, "group": null },
+    { "id": 18, "name": "Shivraj Prachande", "dob": "05/06/1948", "email": "shivraj.prachande@thinkitive.com", "primaryCounselor": null, "program": null, "group": null },
+    { "id": 17, "name": "Pawan g Kathar", "dob": "05/04/1973", "email": "pawan.kathar@thinkitive.com", "primaryCounselor": null, "program": null, "group": null },
+    { "id": 16, "name": "Olivia Reed", "dob": "02/18/1985", "email": "olivia.reed@example.com", "primaryCounselor": null, "program": null, "group": null },
+    { "id": 15, "name": "Marcus Lin", "dob": "09/12/1990", "email": "marcus.lin@example.com", "primaryCounselor": null, "program": null, "group": null },
+    { "id": 14, "name": "Priya Patel", "dob": "12/01/1988", "email": "priya.patel@example.com", "primaryCounselor": null, "program": null, "group": null },
+    { "id": 13, "name": "Diego Alvarez", "dob": "04/17/1995", "email": "diego.alvarez@example.com", "primaryCounselor": null, "program": null, "group": null },
+    { "id": 12, "name": "Hannah Cole", "dob": "08/08/1980", "email": "hannah.cole@example.com", "primaryCounselor": null, "program": null, "group": null },
+    { "id": 11, "name": "Ethan Moore", "dob": "03/03/1976", "email": "ethan.moore@example.com", "primaryCounselor": null, "program": null, "group": null },
+    { "id": 10, "name": "Aria Bennett", "dob": "10/21/1999", "email": "aria.bennett@example.com", "primaryCounselor": null, "program": null, "group": null },
+    { "id": 9, "name": "Noah Brooks", "dob": "06/06/1968", "email": "noah.brooks@example.com", "primaryCounselor": null, "program": null, "group": null },
+    { "id": 8, "name": "Mia Stone", "dob": "01/30/1993", "email": "mia.stone@example.com", "primaryCounselor": null, "program": null, "group": null },
+    { "id": 7, "name": "Liam Patel", "dob": "07/19/1982", "email": "liam.patel@example.com", "primaryCounselor": null, "program": null, "group": null }
+  ]
+}
