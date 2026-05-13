@@ -16,8 +16,12 @@ const Navbar = () => {
     //     icon: <VscAccount />
     //     })
 
-    const currentItem = 
-        menuItems.find(item => item.path === location.pathname)
+    const currentItem =
+        menuItems.find(item =>
+            item.path === "/"
+                ? location.pathname === "/"
+                : location.pathname === item.path || location.pathname.startsWith(item.path + "/")
+        )
         || menuItems[0];
   return (
     <div className='navbar' style={{ position:"relative"}}>
