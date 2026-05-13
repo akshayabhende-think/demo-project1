@@ -32,7 +32,7 @@ const PatientCommunications = () => {
 
     const handleBack = useCallback(() => navigate("/settings"), [navigate]);
     const handleAddReminder = useCallback(() => {
-        console.log("Add reminder");
+        // console.log("Add reminder");
     }, []);
 
     return (

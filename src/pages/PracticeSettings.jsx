@@ -66,10 +66,10 @@ const PracticeSettings = () => {
         setAddLocationOpen(true);
     }, []);
     const handleAddUser = useCallback(() => {
-        console.log("Add user");
+        // console.log("Add user");
     }, []);
     const handleAddUserVariant = useCallback((variant) => {
-        console.log("Add user variant", variant);
+        // console.log("Add user variant", variant);
     }, []);
     const handleAddRole = useCallback(() => {
         setAddRoleOpen(true);

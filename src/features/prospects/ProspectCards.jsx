@@ -10,7 +10,7 @@ const ProspectCards = () => {
         <StatCard
           key={key}
           {...rest}
-          onClick={() => console.log(key)}
+          onClick={() => { /* console.log(key) */ }}
         />
       ))}
     </div>

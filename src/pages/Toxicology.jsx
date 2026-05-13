@@ -52,11 +52,11 @@ const Toxicology = () => {
   const filteredData = useFilteredTests(data, searchText, filterTab);
 
   const handleExport = useCallback((format) => {
-    console.log("Export toxicology data", format);
+    // console.log("Export toxicology data", format);
   }, []);
 
   const handleCreateShipment = useCallback(() => {
-    console.log("Create shipment");
+    // console.log("Create shipment");
   }, []);
 
   return (

@@ -79,8 +79,8 @@ const HeaderCard = ({ header, isDefault, onSelect = noop, onEdit = noop, onDelet
 const PrintConfiguration = () => {
     const [defaultHeaderId, setDefaultHeaderId] = useState(null);
 
-    const handleEdit = (header) => console.log("Edit header", header);
-    const handleDelete = (header) => console.log("Delete header", header);
+    const handleEdit = (header) => { /* console.log("Edit header", header); */ };
+    const handleDelete = (header) => { /* console.log("Delete header", header); */ };
 
     return (
         <div className="pc-body">

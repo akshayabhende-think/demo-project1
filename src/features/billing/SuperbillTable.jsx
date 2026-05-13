@@ -24,7 +24,7 @@ const SuperbillTable = ({ data, loading }) => {
             setPaymentTarget(record);
             return;
         }
-        console.log("Superbill action", key, record);
+        // console.log("Superbill action", key, record);
     }, []);
 
     const columns = useMemo(

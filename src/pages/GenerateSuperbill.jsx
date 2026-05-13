@@ -261,7 +261,7 @@ const GenerateSuperbill = () => {
 
     const handleCancel = () => navigate("/billing");
     const handleSave = () => {
-        console.log("Save superbill", { encounterId: id, form, services });
+        // console.log("Save superbill", { encounterId: id, form, services });
         navigate("/billing");
     };
 

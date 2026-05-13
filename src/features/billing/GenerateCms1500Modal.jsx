@@ -28,10 +28,10 @@ const FieldBox = ({ num, label, children, className = "" }) => (
 );
 
 const GenerateCms1500Modal = ({ open, onClose, record }) => {
-    const handleExport = () => console.log("Export CMS1500 PDF", record);
-    const handleEmail = () => console.log("Email CMS1500", record);
+    const handleExport = () => { /* console.log("Export CMS1500 PDF", record); */ };
+    const handleEmail = () => { /* console.log("Email CMS1500", record); */ };
     const handleSave = () => {
-        console.log("Save CMS1500 to patient chart", record);
+        // console.log("Save CMS1500 to patient chart", record);
         onClose?.();
     };
 

@@ -38,7 +38,7 @@ const LocationsTable = ({ data, loading }) => {
     const [statusOverrides, setStatusOverrides] = useState({});
 
     const handleRowAction = useCallback((key, record) => {
-        console.log("Location action", key, record);
+        // console.log("Location action", key, record);
     }, []);
 
     const handleStatusToggle = useCallback((id, checked) => {

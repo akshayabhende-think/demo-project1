@@ -70,7 +70,7 @@ const FeeScheduleTable = ({ data, loading }) => {
     });
 
     const handleView = (record) => {
-        console.log("View fee schedule", record);
+        // console.log("View fee schedule", record);
     };
 
     const handleDelete = (record) => {

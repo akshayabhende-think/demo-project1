@@ -5,7 +5,7 @@ import "../../styles/patientCommunications/deleteReminderModal.css";
 const DeleteReminderModal = ({ open, onClose, onConfirm, record }) => {
     const handleConfirm = () => {
         if (onConfirm) onConfirm(record);
-        else console.log("Delete reminder", record);
+        else { /* console.log("Delete reminder", record); */ }
         onClose?.();
     };
 

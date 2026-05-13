@@ -40,19 +40,19 @@ const ProviderAccountSettings = () => {
 
     const handleBack = useCallback(() => navigate("/settings"), [navigate]);
     const handleEdit = useCallback(() => {
-        console.log("Edit provider profile");
+        // console.log("Edit provider profile");
     }, []);
     const handleResetNotifDefaults = useCallback(() => {
         setNotifState(buildDefaultNotificationState());
     }, []);
     const handleSaveNotif = useCallback(() => {
-        console.log("Save notification preferences", notifState);
+        // console.log("Save notification preferences", notifState);
     }, [notifState]);
     const handleAddPatientFlag = useCallback(() => {
         setAddFlagOpen(true);
     }, []);
     const handleCreateFlag = useCallback((flag) => {
-        console.log("Create patient flag", flag);
+        // console.log("Create patient flag", flag);
     }, []);
 
     return (

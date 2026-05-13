@@ -10,7 +10,7 @@ const TABLE_SCROLL = { y: 400, x: 1100 };
 
 const ReceiptsTable = ({ data, loading }) => {
     const handleRowAction = useCallback((key, record) => {
-        console.log("Receipt action", key, record);
+        // console.log("Receipt action", key, record);
     }, []);
 
     const columns = useMemo(

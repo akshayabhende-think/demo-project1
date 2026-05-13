@@ -10,7 +10,7 @@ const TABLE_SCROLL = { y: 345, x: 900 };
 
 const HolidaysTable = ({ data, loading }) => {
     const handleEdit = useCallback((record) => {
-        console.log("Edit holiday", record);
+        // console.log("Edit holiday", record);
     }, []);
 
     const columns = useMemo(

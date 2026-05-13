@@ -86,7 +86,7 @@ const EditPracticeProfileModal = ({ open, onClose, onSave }) => {
     const handleSave = () => {
         if (!canSave) return;
         if (onSave) onSave(form);
-        else console.log("Save practice profile", form);
+        else { /* console.log("Save practice profile", form); */ }
         onClose?.();
     };
 

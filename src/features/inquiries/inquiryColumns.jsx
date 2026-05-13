@@ -85,7 +85,14 @@ export const inquiryColumns = ({ onDelete, onConvert }) => [
           type="default"
           disabled={isClosed}
           onClick={() => onConvert(record)}
-          style={{ borderRadius: '6px', whiteSpace: 'nowrap' }}
+          style={{
+            borderRadius: '8px',
+            whiteSpace: 'nowrap',
+            background: '#eff6ff',
+            borderColor: '#1677ff',
+            color: '#1677ff',
+            fontWeight: 500,
+          }}
         >
           Convert to Prospect
         </Button>

@@ -59,13 +59,13 @@ const RemindersTable = ({ data, loading }) => {
     const [deleteTarget, setDeleteTarget] = useState(null);
 
     const handleEdit = useCallback((record) => {
-        console.log("Edit reminder", record);
+        // console.log("Edit reminder", record);
     }, []);
     const handleDelete = useCallback((record) => {
         setDeleteTarget(record);
     }, []);
     const handleConfirmDelete = useCallback((record) => {
-        console.log("Confirmed delete", record);
+        // console.log("Confirmed delete", record);
     }, []);
 
     const columns = useMemo(

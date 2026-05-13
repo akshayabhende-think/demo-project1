@@ -83,7 +83,7 @@ const AddNewRoleModal = ({ open, onClose, onSave }) => {
 
     const handleSave = () => {
         if (onSave) onSave(form);
-        else console.log("Save new role", form);
+        else { /* console.log("Save new role", form); */ }
         onClose?.();
     };
 

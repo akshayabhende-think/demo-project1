@@ -1,14 +1,17 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import CustomTable from '../../components/common/CustomTable'
 import { inquiryColumns } from './inquiryColumns'
 
 const InquiryTable = ({ data, loading }) => {
+    const navigate = useNavigate()
+
     const handleDelete = (id) => {
-        console.log('Delete', id)
+        // console.log('Delete', id)
     }
 
     const handleConvert = (record) => {
-        console.log('Convert', record)
+        navigate('/prospect/new')
     }
 
     return (

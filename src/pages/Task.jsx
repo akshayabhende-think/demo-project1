@@ -40,11 +40,11 @@ const Task = () => {
   }, []);
 
   const handleView = useCallback((record) => {
-    console.log("View task", record);
+    // console.log("View task", record);
   }, []);
 
   const handleEdit = useCallback((record) => {
-    console.log("Edit task", record);
+    // console.log("Edit task", record);
   }, []);
 
   return (

@@ -58,7 +58,7 @@ const Prospect = () => {
   );
 
   const handleExport = useCallback((format) => {
-    console.log("Export prospects as", format);
+    // console.log("Export prospects as", format);
   }, []);
 
   const handleAddProspect = useCallback(() => {

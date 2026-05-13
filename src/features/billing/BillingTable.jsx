@@ -24,7 +24,7 @@ const BillingTable = ({ data, loading, subTab = "billable" }) => {
                 setInvoiceTarget(record);
                 return;
             }
-            console.log("Encounter action", key, record);
+            // console.log("Encounter action", key, record);
         },
         [navigate]
     );

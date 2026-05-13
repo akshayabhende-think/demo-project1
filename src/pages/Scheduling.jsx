@@ -49,7 +49,7 @@ const Scheduling = () => {
   }, []);
 
   const handleStatusChange = useCallback((record, newStatus) => {
-    console.log("Change status", record.id, newStatus);
+    // console.log("Change status", record.id, newStatus);
   }, []);
 
   const renderBody = () => {

@@ -45,7 +45,7 @@ const TABLE_SCROLL = { y: 380, x: 900 };
 
 const PatientFlagsTable = ({ data, loading }) => {
     const handleRowAction = useCallback((key, record) => {
-        console.log("Patient flag action", key, record);
+        // console.log("Patient flag action", key, record);
     }, []);
 
     const columns = useMemo(

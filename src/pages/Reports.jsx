@@ -157,7 +157,7 @@ const Reports = () => {
                             type="primary"
                             icon={<DownloadOutlined />}
                             className="rpt-export-btn"
-                            onClick={() => console.log("Export", activeTab)}
+                            onClick={() => { /* console.log("Export", activeTab) */ }}
                         >
                             Export
                         </Button>

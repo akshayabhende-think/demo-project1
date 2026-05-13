@@ -85,7 +85,7 @@ const AddNewLocationModal = ({ open, onClose, onSave }) => {
     const handleSave = () => {
         if (!canSave) return;
         if (onSave) onSave(form);
-        else console.log("Save new location", form);
+        else { /* console.log("Save new location", form); */ }
         onClose?.();
     };
 

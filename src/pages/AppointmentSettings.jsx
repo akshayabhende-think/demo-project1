@@ -55,11 +55,11 @@ const AppointmentSettings = () => {
 
     const handleBack = useCallback(() => navigate("/settings"), [navigate]);
     const handleAddHoliday = useCallback(() => {
-        console.log("Add holiday");
+        // console.log("Add holiday");
     }, []);
 
     const handleAddAppointmentType = useCallback(() => {
-        console.log("Add appointment type");
+        // console.log("Add appointment type");
     }, []);
 
     let body = null;

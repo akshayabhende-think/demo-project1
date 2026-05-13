@@ -8,7 +8,7 @@ const ActionMenu = ({ record, onDelete }) => {
           onDelete(record.id);
         }
         if (key === "edit") {
-          console.log("Edit", record);
+          // console.log("Edit", record);
         }
       }}
       items={[

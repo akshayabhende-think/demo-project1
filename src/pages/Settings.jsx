@@ -52,7 +52,7 @@ const Settings = () => {
         navigate("/settings/billing/fee-schedule");
         return;
       }
-      console.log("Open settings", cardKey, itemKey);
+      // console.log("Open settings", cardKey, itemKey);
     },
     [navigate]
   );

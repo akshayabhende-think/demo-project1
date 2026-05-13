@@ -30,11 +30,11 @@ const AddPaymentModal = ({ open, onClose, record }) => {
     const clientName = record?.clientName ?? "Esther Howard";
 
     const handleCollect = () => {
-        console.log("Collect payment", {
+        /* console.log("Collect payment", {
             superbillId: record?.id,
             amount,
             method,
-        });
+        }); */
         onClose?.();
     };
 

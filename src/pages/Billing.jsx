@@ -40,11 +40,11 @@ const Billing = () => {
   );
 
   const handleExport = useCallback((format) => {
-    console.log("Export billing data", format);
+    // console.log("Export billing data", format);
   }, []);
 
   const handleBatchSubmit = useCallback(() => {
-    console.log("Batch CMS1500 submit");
+    // console.log("Batch CMS1500 submit");
   }, []);
 
   const handleGenerateSuperbill = useCallback(() => {

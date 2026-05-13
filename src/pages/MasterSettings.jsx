@@ -126,7 +126,7 @@ const MasterSettings = () => {
                                 type="primary"
                                 icon={<PlusOutlined />}
                                 className="ms-add-btn"
-                                onClick={() => console.log("Add Z Code")}
+                                onClick={() => { /* console.log("Add Z Code") */ }}
                             >
                                 Add Z Codes
                             </Button>
@@ -136,7 +136,7 @@ const MasterSettings = () => {
                                 type="primary"
                                 icon={<PlusOutlined />}
                                 className="ms-add-btn"
-                                onClick={() => console.log("Add DSM Code")}
+                                onClick={() => { /* console.log("Add DSM Code") */ }}
                             >
                                 Add DSM Codes
                             </Button>

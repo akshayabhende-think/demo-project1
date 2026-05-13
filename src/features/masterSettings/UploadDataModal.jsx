@@ -43,12 +43,12 @@ const UploadDataModal = ({ open, onClose, onUpload }) => {
     };
 
     const handleDownload = () => {
-        console.log("Download blank CSV template", { entityType });
+        // console.log("Download blank CSV template", { entityType });
     };
 
     const handleUpload = () => {
         if (onUpload) onUpload({ entityType, fileName });
-        else console.log("Upload data", { entityType, fileName });
+        else { /* console.log("Upload data", { entityType, fileName }); */ }
         onClose?.();
     };
 

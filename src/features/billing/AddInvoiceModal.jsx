@@ -93,12 +93,12 @@ const AddInvoiceModal = ({ open, onClose, encounter }) => {
     }, [form.client]);
 
     const handleSave = () => {
-        console.log("Save invoice", form);
+        // console.log("Save invoice", form);
         onClose?.();
     };
 
     const handlePrint = () => {
-        console.log("Print invoice", form);
+        // console.log("Print invoice", form);
     };
 
     return (

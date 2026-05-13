@@ -55,7 +55,7 @@ const TABLE_SCROLL = { y: 380, x: 900 };
 
 const RolesTable = ({ data, loading }) => {
     const handleRowAction = useCallback((key, record) => {
-        console.log("Role action", key, record);
+        // console.log("Role action", key, record);
     }, []);
 
     const columns = useMemo(

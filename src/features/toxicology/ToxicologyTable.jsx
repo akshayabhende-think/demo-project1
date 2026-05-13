@@ -17,19 +17,19 @@ const TABLE_SCROLL = { y: 400, x: 1100 };
 
 const ToxicologyTable = ({ data, loading, activeTab = "active" }) => {
     const handlePrintLabel = useCallback((record) => {
-        console.log("Print label", record);
+        // console.log("Print label", record);
     }, []);
 
     const handleCollect = useCallback((record) => {
-        console.log("Collect sample", record);
+        // console.log("Collect sample", record);
     }, []);
 
     const handlePendingAction = useCallback((key, record) => {
-        console.log("Pending action", key, record);
+        // console.log("Pending action", key, record);
     }, []);
 
     const handleViewResult = useCallback((record) => {
-        console.log("View result", record);
+        // console.log("View result", record);
     }, []);
 
     const columns = useMemo(() => {

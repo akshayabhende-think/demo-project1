@@ -29,7 +29,7 @@ const AddPatientFlagModal = ({ open, onClose, onCreate }) => {
         if (!canCreate) return;
         const flag = { name: name.trim(), color };
         if (onCreate) onCreate(flag);
-        else console.log("Create patient flag", flag);
+        else { /* console.log("Create patient flag", flag); */ }
         onClose?.();
     };
 

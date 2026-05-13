@@ -17,7 +17,7 @@ const InvoicesTable = ({ data, loading }) => {
     }, []);
 
     const handleMenuAction = useCallback((key, record) => {
-        console.log("Invoice action", key, record);
+        // console.log("Invoice action", key, record);
     }, []);
 
     const columns = useMemo(

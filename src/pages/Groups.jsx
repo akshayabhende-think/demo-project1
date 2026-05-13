@@ -18,11 +18,11 @@ const Groups = () => {
   const filteredData = useFilteredGroups(data, searchText, filters);
 
   const handleView = useCallback((record) => {
-    console.log("View group", record);
+    // console.log("View group", record);
   }, []);
 
   const handleEdit = useCallback((record) => {
-    console.log("Edit group", record);
+    // console.log("Edit group", record);
   }, []);
 
   const handleAddGroup = useCallback(() => {
