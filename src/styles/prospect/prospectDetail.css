@@ -109,7 +109,7 @@
 }
 
 .prospect-detail-radios {
-    display: flex !important;
+    display: flex;
     flex-direction: column;
     gap: 6px;
     font-size: 13px;
@@ -129,7 +129,7 @@
 }
 
 .prospect-detail-calendar .ant-picker-calendar-year-select {
-    display: none !important;
+    display: none;
 }
 
 .prospect-detail-calendar .ant-picker-calendar-month-select {
@@ -147,18 +147,18 @@
 
 /* Cell layout — square pills with breathing room */
 .prospect-detail-calendar .ant-picker-cell {
-    padding: 2px 0 !important;
+    padding: 2px 0;
 }
 
 .prospect-detail-calendar .ant-picker-cell .ant-picker-cell-inner,
 .prospect-detail-calendar .ant-picker-calendar-date {
-    margin: 0 auto !important;
+    margin: 0 auto;
     min-width: 28px;
     height: 28px;
-    line-height: 28px !important;
-    border-radius: 6px !important;
-    border: none !important;
-    padding: 0 !important;
+    line-height: 28px ;
+    border-radius: 6px;
+    border: none;
+    padding: 0;
     text-align: center;
     background: transparent;
     color: #d1d5db;
@@ -178,13 +178,13 @@
 .prospect-detail-calendar .ant-picker-cell-selected .ant-picker-cell-inner,
 .prospect-detail-calendar .ant-picker-cell-today .ant-picker-calendar-date,
 .prospect-detail-calendar .ant-picker-cell-selected .ant-picker-calendar-date {
-    background: #1677ff !important;
-    color: #ffffff !important;
+    background: #1677ff;
+    color: #ffffff;
 }
 
 /* Hide the AntD "today" border indicator since we use full bg */
 .prospect-detail-calendar .ant-picker-cell-today .ant-picker-cell-inner::before {
-    display: none !important;
+    display: none;
 }
 
 /* Hover */
@@ -201,8 +201,8 @@
 .prospect-detail-calendar
     .ant-picker-cell-selected:hover
     .ant-picker-cell-inner {
-    background: #0e5fdc !important;
-    color: #ffffff !important;
+    background: #0e5fdc;
+    color: #ffffff;
 }
 
 .prospect-detail-cta {
