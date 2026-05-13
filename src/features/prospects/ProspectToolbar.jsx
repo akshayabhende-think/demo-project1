@@ -89,7 +89,7 @@ const ProspectToolbar = ({
                     trigger="click"
                     placement="bottomRight"
                     arrow={false}
-                    destroyTooltipOnHide
+                    destroyOnHidden
                     content={
                         <ProspectFilterContent
                             initialValues={filters}
