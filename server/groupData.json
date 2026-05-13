@@ -1,0 +1,29 @@
+{
+  "groups": [
+    { "id": "GRP001", "name": "Wellness Group A", "groupType": "Psychoeducation", "program": "Program 1", "primaryCounselor": "Ronald Richards", "enrolledClient": 12, "startDate": "22/08/1969" },
+    { "id": "GRP002", "name": "Recovery Circle", "groupType": "Psychoeducation", "program": "Program 1", "primaryCounselor": "Cameron Williamson", "enrolledClient": 20, "startDate": "14/09/1983" },
+    { "id": "GRP003", "name": "Youth Empowerment", "groupType": "Psychoeducation", "program": "Program 2 ( Phase 1)", "primaryCounselor": "Jerome Bell", "enrolledClient": 3, "startDate": "20/06/1988" },
+    { "id": "GRP004", "name": "Parenting 101", "groupType": "Psychoeducation", "program": "Program 1", "primaryCounselor": "Cody Fisher", "enrolledClient": 10, "startDate": "27/11/1987" },
+    { "id": "GRP005", "name": "Career Boost", "groupType": "Psychoeducation", "program": "Program 3", "primaryCounselor": "Brooklyn Simmons", "enrolledClient": 14, "startDate": "08/01/1976" },
+    { "id": "GRP006", "name": "Mind Matters", "groupType": "Psychoeducation", "program": "Program 1", "primaryCounselor": "Dianne Russell", "enrolledClient": 8, "startDate": "19/08/1974" },
+    { "id": "GRP007", "name": "Senior Connect", "groupType": "Psychoeducation", "program": "Program 2 ( Phase 1)", "primaryCounselor": "Kathryn Murphy", "enrolledClient": 12, "startDate": "15/10/1978" },
+    { "id": "GRP008", "name": "Fitness First", "groupType": "Psychoeducation", "program": "Program 1", "primaryCounselor": "Eleanor Pena", "enrolledClient": 12, "startDate": "05/05/1980" },
+    { "id": "GRP009", "name": "Stress Relief", "groupType": "Psychoeducation", "program": "Program 3", "primaryCounselor": "Jane Cooper", "enrolledClient": 12, "startDate": "04/12/1978" },
+    { "id": "GRP010", "name": "Tech Skills Hub", "groupType": "Psychoeducation", "program": "Program 1", "primaryCounselor": "Theresa Webb", "enrolledClient": 12, "startDate": "02/01/1980" },
+    { "id": "GRP011", "name": "Stress Relief 2", "groupType": "Psychoeducation", "program": "Program 2 ( Phase 1)", "primaryCounselor": "Savannah Nguyen", "enrolledClient": 19, "startDate": "02/07/1971" },
+    { "id": "GRP012", "name": "Tech Skills Hub", "groupType": "Psychoeducation", "program": "Program 1", "primaryCounselor": "Robert Fox", "enrolledClient": 10, "startDate": "12/07/1993" },
+    { "id": "GRP013", "name": "Career Boost", "groupType": "Psychoeducation", "program": "Program 1", "primaryCounselor": "Arlene McCoy", "enrolledClient": 2, "startDate": "25/03/1991" },
+    { "id": "GRP014", "name": "Mindful Living", "groupType": "Psychoeducation", "program": "Program 1", "primaryCounselor": "Esther Howard", "enrolledClient": 9, "startDate": "11/04/1985" },
+    { "id": "GRP015", "name": "Family Support", "groupType": "Psychoeducation", "program": "Program 2 ( Phase 1)", "primaryCounselor": "Floyd Miles", "enrolledClient": 7, "startDate": "30/06/1990" },
+    { "id": "GRP016", "name": "Healthy Habits", "groupType": "Psychoeducation", "program": "Program 3", "primaryCounselor": "Albert Flores", "enrolledClient": 11, "startDate": "12/12/1982" },
+    { "id": "GRP017", "name": "Anger Management", "groupType": "Psychoeducation", "program": "Program 1", "primaryCounselor": "Annette Black", "enrolledClient": 6, "startDate": "08/03/1979" },
+    { "id": "GRP018", "name": "Substance Recovery", "groupType": "Psychoeducation", "program": "Program 2 ( Phase 1)", "primaryCounselor": "Devon Lane", "enrolledClient": 15, "startDate": "21/05/1995" },
+    { "id": "GRP019", "name": "Anxiety Support", "groupType": "Psychoeducation", "program": "Program 1", "primaryCounselor": "Bessie Cooper", "enrolledClient": 13, "startDate": "17/09/1988" },
+    { "id": "GRP020", "name": "Grief Counseling", "groupType": "Psychoeducation", "program": "Program 3", "primaryCounselor": "Darrell Steward", "enrolledClient": 5, "startDate": "06/06/1992" },
+    { "id": "GRP021", "name": "Relationship Skills", "groupType": "Psychoeducation", "program": "Program 1", "primaryCounselor": "Marvin McKinney", "enrolledClient": 8, "startDate": "23/02/1986" },
+    { "id": "GRP022", "name": "Life Transitions", "groupType": "Psychoeducation", "program": "Program 2 ( Phase 1)", "primaryCounselor": "Wade Warren", "enrolledClient": 7, "startDate": "10/10/1981" },
+    { "id": "GRP023", "name": "Mens Wellness", "groupType": "Psychoeducation", "program": "Program 1", "primaryCounselor": "Leslie Alexander", "enrolledClient": 16, "startDate": "29/07/1977" },
+    { "id": "GRP024", "name": "Womens Circle", "groupType": "Psychoeducation", "program": "Program 1", "primaryCounselor": "Guy Hawkins", "enrolledClient": 18, "startDate": "14/01/1984" },
+    { "id": "GRP025", "name": "Teen Talk", "groupType": "Psychoeducation", "program": "Program 3", "primaryCounselor": "Jacob Jones", "enrolledClient": 11, "startDate": "03/03/1996" }
+  ]
+}
