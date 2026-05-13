@@ -47,10 +47,10 @@ const EditAppointmentTypeModal = ({ open, onClose, record }) => {
         setForm((prev) => ({ ...prev, [field]: value }));
 
     const handleUpdate = () => {
-        console.log("Update appointment type", {
+        /* console.log("Update appointment type", {
             id: record?.id,
             ...form,
-        });
+        }); */
         onClose?.();
     };
 
