@@ -1,0 +1,88 @@
+p{
+    font-size: large;
+    font-weight: 600;
+}
+
+.table-wrapper{
+    padding: 20px 10px;
+    box-shadow: 10px rgb(90, 87, 87);
+}
+
+.table-wrapper .ant-table-body,
+.table-wrapper .ant-table-content {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.table-wrapper .ant-table-body::-webkit-scrollbar,
+.table-wrapper .ant-table-content::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.status {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status-new {
+  background: #e6f4ea;
+  color: #1a7f37;
+}
+
+.status-closed {
+  background: #fdecea;
+  color: #d93025;
+}
+
+.status-contacted {
+  background: #fff4e5;
+  color: #b26a00;
+}
+
+.inquiry-search{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 12px;
+}
+
+.inquiry-search-input.ant-input-affix-wrapper,
+.inquiry-search-input {
+    width: 270px;
+}
+
+.inquiry-upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 640px) {
+    .inquiry-upper {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .inquiry-search {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .inquiry-search-input.ant-input-affix-wrapper,
+    .inquiry-search-input {
+        flex: 1;
+        width: auto;
+        min-width: 0;
+    }
+
+    .table-wrapper {
+        padding: 12px 0;
+    }
+}

@@ -1,0 +1,70 @@
+.timeline-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  border: 1px solid #eee;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Scrollable area */
+.timeline-body {
+  margin-top: 10px;
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 6px;
+}
+
+/* Scrollbar (optional clean UI) */
+.timeline-body::-webkit-scrollbar {
+  display: none;
+}
+.timeline-body::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+/* Date */
+.timeline-date {
+  font-size: 13px;
+  color: #6b7280;
+  margin: 10px 0;
+}
+
+/* Item */
+.timeline-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Different styles */
+.timeline-item.no-show {
+  background: #f3eefc;
+  border-left: 3px solid #7c3aed;
+}
+
+.timeline-item.scheduled {
+  background: #eaf2ff;
+  border-left: 3px solid #2563eb;
+}
+
+/* Text */
+.event-title {
+  font-weight: 500;
+}
+
+.event-sub {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.event-time {
+  font-size: 13px;
+  color: #6b7280;
+}

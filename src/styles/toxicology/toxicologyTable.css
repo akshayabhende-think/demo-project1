@@ -1,0 +1,146 @@
+.tox-table .ant-table-body,
+.tox-table .ant-table-content {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.tox-table .ant-table-body::-webkit-scrollbar,
+.tox-table .ant-table-content::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.tox-table .ant-table-thead > tr > th {
+    padding: 14px 18px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #6b7280;
+    background: #f9fafb;
+    white-space: nowrap;
+}
+
+.tox-table .ant-table-tbody > tr > td {
+    padding: 18px 18px;
+    font-size: 14px;
+    color: #4b5563;
+    font-weight: 400;
+}
+
+.tox-client-cell {
+    font-weight: 700;
+    color: #111827;
+}
+
+.tox-schedule-tag.ant-tag {
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 2px 12px;
+    border: none;
+}
+
+.tox-exc-tag.ant-tag {
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 2px 10px;
+    border: none;
+}
+
+.tox-exc-tag.tox-exc-tag-invalid {
+    background: #f3f4f6;
+    color: #4b5563;
+}
+
+.tox-exc-tag.tox-exc-tag-failure {
+    background: #fde8e8;
+    color: #d92d20;
+}
+
+.tox-exc-tag.tox-exc-tag-noshow {
+    background: #fef3c7;
+    color: #b54708;
+}
+
+/* Action buttons */
+.tox-action-cell {
+    display: inline-flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.tox-action-btn.ant-btn {
+    height: 34px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    background: #ffffff;
+    color: #374151;
+    font-weight: 500;
+    box-shadow: none;
+    padding: 0 16px;
+}
+
+.tox-action-btn.ant-btn:hover {
+    border-color: #1677ff;
+    color: #1677ff;
+}
+
+.tox-action-btn.tox-action-btn-primary.ant-btn {
+    border-color: #1677ff;
+    color: #1677ff;
+}
+
+.tox-action-btn.tox-action-btn-primary.ant-btn:hover {
+    background: #eaf1ff;
+    border-color: #1677ff;
+    color: #1677ff;
+}
+
+.tox-row-action-btn.ant-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    color: #6b7280;
+    box-shadow: none;
+}
+
+.tox-row-action-btn.ant-btn:hover {
+    background: #f3f4f6;
+    color: #111827;
+}
+
+.tox-result-tag.ant-tag {
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 2px 12px;
+    border: none;
+}
+
+.tox-result-tag.tox-result-tag-negative {
+    background: #e7f7ee;
+    color: #0a7c3a;
+}
+
+.tox-result-tag.tox-result-tag-positive {
+    background: #fde8e8;
+    color: #d92d20;
+}
+
+.tox-view-btn.ant-btn {
+    height: 34px;
+    border-radius: 8px;
+    background: #eaf1ff;
+    border-color: #c7dbff;
+    color: #1677ff;
+    font-weight: 500;
+    box-shadow: none;
+    padding: 0 16px;
+}
+
+.tox-view-btn.ant-btn:hover {
+    background: #d6e4ff;
+    border-color: #1677ff;
+    color: #1677ff;
+}

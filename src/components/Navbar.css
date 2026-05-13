@@ -1,0 +1,165 @@
+.navbar{
+    height: 50px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E9E9E9;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 16px;
+    position: sticky;
+    top: 6px;
+    z-index: 100;
+}
+
+.navbar-center{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar-center input{
+    width: 80%;
+    max-width: 400px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+/* .nav-switcher{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    border: 1px solid rgb(160, 155, 155);
+    border-radius: 10px;
+    width: 12%;
+    padding: 3px;
+    justify-content: center;
+} */
+
+.switcher-icon{
+    flex-shrink: 1;
+    font-size: medium;
+    padding-top: 5px;
+}
+
+.switcher-text{
+    flex-shrink: 1;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+.border{
+    border: 0.5px solid rgb(160, 157, 157);
+    height: 25px;
+}
+
+
+/* .nav-switcher-wrapper{
+    width: 12%;
+    padding: 4px; 
+    border: 1px solid rgb(145, 143, 143);
+    border-radius: 10px;
+    align-items: center;
+} */
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-switcher{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 4px 12px;
+    background: #FFFFFF;
+    border: 1px solid rgb(167, 164, 164);
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.nav-switcher .left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.account{
+    border: 1px solid rgb(199, 195, 195);
+    border-radius: 65px;
+    padding: 4px 5px;
+    background-color: rgb(134, 203, 230);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0 12px;
+        gap: 8px;
+    }
+
+    .nav-switcher {
+        width: 140px;
+        padding: 4px 10px;
+    }
+
+    .navbar-center input {
+        width: 100%;
+    }
+
+    .navbar-right {
+        gap: 10px !important;
+    }
+}
+
+@media (max-width: 640px) {
+    .navbar-center {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 0 8px;
+    }
+
+    .nav-switcher {
+        width: auto;
+        min-width: 40px;
+        padding: 4px 8px;
+    }
+
+    .nav-switcher .switcher-text {
+        display: none;
+    }
+
+    .nav-switcher .arrow {
+        display: none;
+    }
+
+    .border {
+        display: none;
+    }
+
+    .account {
+        padding: 3px 4px;
+    }
+
+    .account p {
+        font-size: 11px !important;
+    }
+}

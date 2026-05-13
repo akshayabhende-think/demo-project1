@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body{
+  background-color: #f4f5f9;
+  color: black;
+  overflow-y: hidden;
+}
+
+.custom-pagination-table .ant-table-pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* left: total text */
+.custom-pagination-table .ant-pagination-total-text {
+  order: 1;
+  margin-right: auto;
+  color: #666;
+}
+
+/* right: rest of controls */
+.custom-pagination-table .ant-pagination-options {
+  order: 2;
+}
+
+/* pagination buttons */
+.custom-pagination-table .ant-pagination-item,
+.custom-pagination-table .ant-pagination-prev,
+.custom-pagination-table .ant-pagination-next {
+  order: 3;
+}
+
+/* "Rows per page:" label before the size dropdown */
+.custom-pagination-table .ant-pagination-options {
+  display: inline-flex;
+  align-items: center;
+}
+
+.custom-pagination-table .ant-pagination-options::before {
+  content: "Rows per page:";
+  margin-right: 8px;
+  color: #4b5563;
+  font-size: 13px;
+}
+
+.custom-pagination-table .ant-pagination-options-size-changer.ant-select {
+  min-width: 70px;
+}
+
+/* Previous / Next pill buttons */
+.custom-pagination-table .custom-pager-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #374151;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.custom-pagination-table .custom-pager-btn:hover {
+  border-color: #c7d2fe;
+  color: #1677ff;
+}
+
+.custom-pagination-table .ant-pagination-disabled .custom-pager-btn {
+  color: #9ca3af;
+  cursor: not-allowed;
+  background: #f9fafb;
+}
+
+/* Active page number with blue outline */
+.custom-pagination-table .ant-pagination-item {
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.custom-pagination-table .ant-pagination-item-active {
+  border-color: #1677ff;
+  background: #ffffff;
+}
+
+.custom-pagination-table .ant-pagination-item-active a {
+  color: #1677ff;
+}
+
+/* Global responsive guard: prevent any AntD modal from exceeding viewport on phones */
+.ant-modal {
+  max-width: calc(100vw - 32px);
+}
+
+@media (max-width: 480px) {
+  .ant-modal {
+    margin: 16px auto;
+  }
+
+  /* Pagination: stack pieces vertically on tiny screens */
+  .custom-pagination-table .ant-table-pagination {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+}
+

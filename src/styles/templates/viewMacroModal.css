@@ -1,0 +1,72 @@
+.vm-modal .ant-modal-content {
+    border-radius: 12px;
+    padding: 18px 22px 20px;
+}
+
+.vm-modal-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #f1f3f7;
+    margin-bottom: 16px;
+}
+
+.vm-modal-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.vm-modal-close.ant-btn {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    color: #6b7280;
+}
+
+.vm-modal-close.ant-btn:hover {
+    background: #f3f4f6;
+    color: #111827;
+}
+
+.vm-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+.vm-label {
+    font-size: 13px;
+    font-weight: 500;
+    color: #111827;
+}
+
+.vm-value {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 13px;
+    color: #111827;
+    background: #ffffff;
+    line-height: 1.55;
+}
+
+.vm-value-single {
+    height: 38px;
+    display: flex;
+    align-items: center;
+}
+
+.vm-value-multiline {
+    min-height: 200px;
+}
+
+.vm-value-multiline p {
+    margin: 0 0 10px;
+}
+
+.vm-value-multiline p:last-child {
+    margin-bottom: 0;
+}

@@ -1,0 +1,196 @@
+.fs-page {
+    padding: 16px 20px;
+    height: calc(100vh - 88px);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.fs-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+    flex-shrink: 0;
+}
+
+.fs-back-btn.ant-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    color: #111827;
+}
+
+.fs-back-btn.ant-btn:hover {
+    background: #eef2ff;
+    color: #1677ff;
+}
+
+.fs-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.fs-header-actions {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fs-search.ant-input-affix-wrapper {
+    width: 220px;
+    height: 36px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    background: #ffffff;
+    padding: 0 12px;
+    box-shadow: none;
+}
+
+.fs-search.ant-input-affix-wrapper:hover,
+.fs-search.ant-input-affix-wrapper-focused {
+    border-color: #c7d2fe;
+    box-shadow: none;
+}
+
+.fs-search .anticon {
+    color: #9ca3af;
+    margin-right: 8px;
+}
+
+.fs-add-btn.ant-btn {
+    height: 36px;
+    border-radius: 10px;
+    background: #1677ff;
+    border-color: #1677ff;
+    font-weight: 500;
+    box-shadow: none;
+    padding: 0 16px;
+}
+
+.fs-add-btn.ant-btn:hover {
+    background: #0e5fdc;
+    border-color: #0e5fdc;
+}
+
+.fs-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 8px 16px 16px;
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.fs-col-title {
+    color: #1677ff;
+    font-weight: 600;
+}
+
+.fs-table .ant-table-thead > tr > th {
+    padding: 14px 18px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #6b7280;
+    background: #f9fafb;
+    white-space: nowrap;
+}
+
+.fs-table .ant-table-tbody > tr > td {
+    padding: 14px 18px;
+    font-size: 13px;
+    color: #4b5563;
+    font-weight: 400;
+}
+
+.fs-table .ant-table-body,
+.fs-table .ant-table-content {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.fs-table .ant-table-body::-webkit-scrollbar,
+.fs-table .ant-table-content::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.fs-status-tag.ant-tag {
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 2px 12px;
+    border: none;
+}
+
+.fs-status-active {
+    background: #e7f7ee;
+    color: #0a7c3a;
+}
+
+.fs-status-inactive {
+    background: #fef3c7;
+    color: #b54708;
+}
+
+.fs-action-trigger {
+    width: 28px;
+    height: 28px;
+    border: none;
+    background: transparent;
+    border-radius: 6px;
+    color: #6b7280;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    transition: background 0.15s ease, color 0.15s ease;
+}
+
+.fs-action-trigger:hover {
+    background: #f3f4f6;
+    color: #111827;
+}
+
+.fs-action-delete {
+    color: #d92d20;
+    display: inline-block;
+    width: 100%;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+    .fs-page {
+        height: auto;
+        overflow: visible;
+    }
+    .fs-header {
+        flex-wrap: wrap;
+    }
+    .fs-header-actions {
+        margin-left: 0;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .fs-search.ant-input-affix-wrapper {
+        flex: 1;
+        width: auto;
+        min-width: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .fs-page {
+        padding: 12px;
+    }
+    .fs-card {
+        padding: 8px 12px 12px;
+    }
+}

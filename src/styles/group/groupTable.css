@@ -1,0 +1,40 @@
+.group-table .ant-table-body,
+.group-table .ant-table-content {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.group-table .ant-table-body::-webkit-scrollbar,
+.group-table .ant-table-content::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.group-table .ant-table-thead > tr > th {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #6b7280;
+    background: #f9fafb;
+    white-space: nowrap;
+}
+
+.group-table .ant-table-tbody > tr > td {
+    padding: 18px 20px;
+    font-size: 14px;
+    color: #4b5563;
+    font-weight: 400;
+}
+
+.group-name-cell {
+    font-weight: 700;
+    color: #111827;
+}
+
+.group-action-trigger {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}

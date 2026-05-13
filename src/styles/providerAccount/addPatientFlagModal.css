@@ -1,0 +1,120 @@
+.pf-modal .ant-modal-content {
+    border-radius: 12px;
+    padding: 18px 22px 20px;
+}
+
+.pf-modal-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #f1f3f7;
+    margin-bottom: 16px;
+}
+
+.pf-modal-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.pf-modal-close.ant-btn {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    color: #6b7280;
+}
+
+.pf-modal-close.ant-btn:hover {
+    background: #f3f4f6;
+    color: #111827;
+}
+
+.pf-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+.pf-label {
+    font-size: 13px;
+    font-weight: 500;
+    color: #111827;
+}
+
+.pf-required {
+    color: #d92d20;
+    margin-left: 2px;
+}
+
+.pf-field .ant-input {
+    height: 40px;
+    border-radius: 8px;
+}
+
+.pf-color-wrap {
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 8px 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.pf-color-picker.ant-color-picker-trigger {
+    border: none;
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+    width: auto;
+    min-width: 70px;
+}
+
+.pf-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 4px;
+    padding-top: 14px;
+    border-top: 1px solid #f1f3f7;
+}
+
+.pf-cancel-btn.ant-btn {
+    height: 38px;
+    border-radius: 8px;
+    border-color: #d1d5db;
+    color: #111827;
+    background: #ffffff;
+    font-weight: 500;
+    box-shadow: none;
+    padding: 0 22px;
+}
+
+.pf-cancel-btn.ant-btn:hover {
+    border-color: #1677ff;
+    color: #1677ff;
+}
+
+.pf-create-btn.ant-btn {
+    height: 38px;
+    border-radius: 8px;
+    background: #1677ff;
+    border-color: #1677ff;
+    font-weight: 500;
+    box-shadow: none;
+    padding: 0 22px;
+}
+
+.pf-create-btn.ant-btn:hover {
+    background: #0e5fdc;
+    border-color: #0e5fdc;
+}
+
+.pf-create-btn.ant-btn[disabled],
+.pf-create-btn.ant-btn[disabled]:hover {
+    background: #93c5fd;
+    border-color: #93c5fd;
+    color: #ffffff;
+    opacity: 0.7;
+}

@@ -1,0 +1,22 @@
+{
+  "reminders": [
+    { "id": 1, "name": "Appointment Reminder", "type": "Email", "timing": "24 hours before", "status": "Active", "templatePreview": "Your appointment is scheduled for {time}. Please arrive 15 minutes early." },
+    { "id": 2, "name": "Appointment Reminder", "type": "SMS", "timing": "2 hours before", "status": "Active", "templatePreview": "Reminder: Appointment today at {time}. Reply CONFIRM to confirm." },
+    { "id": 3, "name": "Follow-up Reminder", "type": "Email", "timing": "1 day after", "status": "Active", "templatePreview": "Thank you for your visit. Please complete the follow-up survey at the link below." },
+    { "id": 4, "name": "Medication Reminder", "type": "SMS", "timing": "Daily at 9:00 AM", "status": "Active", "templatePreview": "Reminder to take your prescribed medication. Refills available." },
+    { "id": 5, "name": "Billing Statement", "type": "Email", "timing": "Monthly", "status": "Inactive", "templatePreview": "Your monthly billing statement is now available in your patient portal." },
+    { "id": 6, "name": "Lab Results Ready", "type": "Email", "timing": "Immediate", "status": "Active", "templatePreview": "Your lab results are now available in your patient portal." },
+    { "id": 7, "name": "Missed Appointment", "type": "SMS", "timing": "30 minutes after", "status": "Active", "templatePreview": "You missed your appointment. Please contact us to reschedule." },
+    { "id": 8, "name": "Pre-Visit Forms", "type": "Email", "timing": "3 days before", "status": "Active", "templatePreview": "Please complete the attached intake forms before your upcoming visit." },
+    { "id": 9, "name": "Insurance Verification", "type": "Email", "timing": "5 days before", "status": "Inactive", "templatePreview": "We need to verify your insurance information before your visit." },
+    { "id": 10, "name": "Birthday Greeting", "type": "Email", "timing": "On Birthday", "status": "Active", "templatePreview": "Wishing you a very happy birthday from all of us at the practice!" },
+    { "id": 11, "name": "Annual Wellness Visit", "type": "Email", "timing": "Yearly", "status": "Active", "templatePreview": "It's time for your annual wellness visit. Schedule today." },
+    { "id": 12, "name": "Prescription Refill", "type": "SMS", "timing": "7 days before refill", "status": "Active", "templatePreview": "Your prescription is due for a refill. Reply REFILL to request." },
+    { "id": 13, "name": "Telehealth Reminder", "type": "SMS", "timing": "30 minutes before", "status": "Active", "templatePreview": "Telehealth visit starts soon. Click the link to join your appointment." },
+    { "id": 14, "name": "Survey Request", "type": "Email", "timing": "2 days after", "status": "Inactive", "templatePreview": "We value your feedback. Please share your visit experience." },
+    { "id": 15, "name": "Welcome Email", "type": "Email", "timing": "After registration", "status": "Active", "templatePreview": "Welcome to our practice! Here's what to expect at your first visit." },
+    { "id": 16, "name": "Payment Receipt", "type": "Email", "timing": "Immediate", "status": "Active", "templatePreview": "Thank you for your payment. Your receipt is attached." },
+    { "id": 17, "name": "Co-pay Reminder", "type": "SMS", "timing": "1 hour before", "status": "Active", "templatePreview": "Your co-pay for today's visit is {amount}. Please bring payment." },
+    { "id": 18, "name": "Lab Order Ready", "type": "SMS", "timing": "Immediate", "status": "Active", "templatePreview": "Your lab order is ready for pickup at the front desk." }
+  ]
+}

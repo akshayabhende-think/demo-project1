@@ -1,0 +1,124 @@
+.task-create-modal .ant-modal-content {
+    max-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.task-create-modal .ant-modal-header {
+    padding: 18px 24px 14px;
+    margin: 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.task-create-modal .ant-modal-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #111827;
+}
+
+.task-create-modal .ant-modal-close {
+    top: 16px;
+    right: 20px;
+}
+
+.task-create-modal .ant-modal-body {
+    padding: 16px 24px 20px;
+    overflow-y: auto;
+    flex: 1;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.task-create-modal .ant-modal-body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.task-create-modal .ant-modal-footer {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #f0f0f0;
+}
+
+.task-create-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    padding: 14px 24px;
+}
+
+.task-create-footer .ant-btn {
+    height: 38px;
+    border-radius: 8px;
+    padding: 0 22px;
+    font-weight: 500;
+}
+
+.task-create-footer .ant-btn-primary {
+    background: #1677ff;
+    border-color: #1677ff;
+}
+
+.task-create-form .ant-form-item {
+    margin-bottom: 14px;
+}
+
+.task-create-form .ant-form-item-label > label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #111827;
+    height: auto;
+}
+
+.task-create-form .ant-form-item-label > label.ant-form-item-required::before {
+    color: #ef4444;
+    margin-right: 4px;
+}
+
+.task-create-form .ant-select .ant-select-selector,
+.task-create-form .ant-input,
+.task-create-form .ant-input-affix-wrapper,
+.task-create-form .ant-picker {
+    height: 42px;
+    border-radius: 8px;
+    border-color: #e5e7eb;
+}
+
+.task-create-form .ant-input::placeholder,
+.task-create-form .ant-select-selection-placeholder {
+    color: #9ca3af;
+}
+
+.task-create-form
+    .ant-select-single
+    .ant-select-selector
+    .ant-select-selection-item,
+.task-create-form
+    .ant-select-single
+    .ant-select-selector
+    .ant-select-selection-placeholder {
+    line-height: 40px;
+}
+
+.task-create-form textarea.ant-input {
+    height: auto;
+    min-height: 120px;
+    border-radius: 8px;
+}
+
+.task-create-grid {
+    display: grid;
+    gap: 14px 20px;
+}
+
+.task-create-grid-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (max-width: 700px) {
+    .task-create-grid-2 {
+        grid-template-columns: 1fr;
+    }
+}

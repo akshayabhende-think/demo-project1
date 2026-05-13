@@ -1,0 +1,262 @@
+/* Constrain the modal so it never overflows the viewport */
+.schedule-modal .ant-modal-content {
+    max-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.schedule-modal .ant-modal-header {
+    padding: 20px 28px 12px;
+    margin: 0;
+    border-bottom: none;
+}
+
+.schedule-modal .ant-modal-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #111827;
+}
+
+.schedule-modal .ant-modal-close {
+    top: 18px;
+    right: 24px;
+}
+
+.schedule-modal .ant-modal-body {
+    padding: 12px 28px 24px;
+    overflow-y: auto; 
+    flex: 1;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.schedule-modal .ant-modal-body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.schedule-modal-form .ant-form-item {
+    margin-bottom: 0;
+}
+
+.schedule-modal-form .ant-form-item-label {
+    padding-bottom: 6px;
+}
+
+.schedule-modal-form .ant-form-item-label > label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #111827;
+    height: auto;
+}
+
+.schedule-modal-form .ant-form-item-label > label.ant-form-item-required::before {
+    color: #ef4444;
+    margin-right: 4px;
+}
+
+/* Field heights match the screenshot's chunkier inputs */
+.schedule-modal-form .ant-select .ant-select-selector,
+.schedule-modal-form .ant-input,
+.schedule-modal-form .ant-input-affix-wrapper {
+    height: 42px;
+    border-radius: 8px;
+    border-color: #e5e7eb;
+}
+
+.schedule-modal-form
+    .ant-select-single
+    .ant-select-selector
+    .ant-select-selection-item,
+.schedule-modal-form
+    .ant-select-single
+    .ant-select-selector
+    .ant-select-selection-placeholder {
+    line-height: 40px;
+}
+
+.schedule-modal-form .ant-input::placeholder,
+.schedule-modal-form .ant-select-selection-placeholder {
+    color: #9ca3af;
+}
+
+.schedule-modal-grid {
+    display: grid;
+    gap: 18px 20px;
+    margin-bottom: 18px;
+}
+
+.schedule-modal-grid-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.schedule-modal-grid-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.schedule-modal-section-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #111827;
+    margin-top: 4px;
+    margin-bottom: 12px;
+}
+
+.schedule-modal-datetime {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 20px;
+    align-items: stretch;
+}
+
+.schedule-modal-calendar {
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Calendar overrides — same mint pill look as the prospect detail sidebar */
+.schedule-modal-calendar-inner .ant-picker-calendar-header {
+    padding: 8px 8px;
+    justify-content: center;
+    gap: 8px;
+}
+
+.schedule-modal-calendar-inner .ant-picker-calendar-year-select {
+    display: none;
+}
+
+.schedule-modal-calendar-inner .ant-picker-calendar-month-select {
+    min-width: 110px;
+    text-align: center;
+}
+
+.schedule-modal-calendar-inner .ant-picker-content thead th {
+    color: #9ca3af;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 4px 0;
+}
+
+.schedule-modal-calendar-inner .ant-picker-cell {
+    padding: 2px 0;
+}
+
+.schedule-modal-calendar-inner .ant-picker-cell .ant-picker-cell-inner,
+.schedule-modal-calendar-inner .ant-picker-calendar-date {
+    margin: 0 auto;
+    min-width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 6px;
+    border: none;
+    padding: 0;
+    text-align: center;
+    background: transparent;
+    color: #d1d5db;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.schedule-modal-calendar-inner .ant-picker-cell-in-view .ant-picker-cell-inner,
+.schedule-modal-calendar-inner .ant-picker-cell-in-view .ant-picker-calendar-date {
+    background: #ecfdf5;
+    color: #059669;
+}
+
+.schedule-modal-calendar-inner .ant-picker-cell-today .ant-picker-cell-inner,
+.schedule-modal-calendar-inner .ant-picker-cell-selected .ant-picker-cell-inner,
+.schedule-modal-calendar-inner .ant-picker-cell-today .ant-picker-calendar-date,
+.schedule-modal-calendar-inner .ant-picker-cell-selected .ant-picker-calendar-date {
+    background: #1677ff ;
+    color: #ffffff;
+}
+
+.schedule-modal-calendar-inner
+    .ant-picker-cell-today
+    .ant-picker-cell-inner::before {
+    display: none !important;
+}
+
+/* Time slots column */
+.schedule-modal-slots {
+    min-height: 200px;
+    max-height: 240px;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 12px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.schedule-modal-slots-empty {
+    color: #6b7280;
+    font-size: 13px;
+    align-self: center;
+}
+
+.schedule-modal-slots-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 6px;
+    width: 100%;
+    max-height: 220px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.schedule-modal-slots-grid::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.schedule-modal-slot {
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    background: #ffffff;
+    color: #374151;
+    padding: 6px 0;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.schedule-modal-slot:hover {
+    border-color: #c7d2fe;
+    color: #1677ff;
+}
+
+.schedule-modal-slot.is-active {
+    background: #1677ff;
+    border-color: #1677ff;
+    color: #ffffff;
+}
+
+/* Footer (sticky at the bottom of the modal, outside the scrollable body) */
+.schedule-modal .ant-modal-footer {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #f0f0f0;
+}
+
+.schedule-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    padding: 12px 24px;
+}
+
+@media (max-width: 900px) {
+    .schedule-modal-grid-3,
+    .schedule-modal-grid-2 {
+        grid-template-columns: 1fr;
+    }
+    .schedule-modal-datetime {
+        grid-template-columns: 1fr;
+    }
+}

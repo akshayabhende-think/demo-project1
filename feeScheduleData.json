@@ -1,0 +1,24 @@
+{
+  "feeSchedule": [
+    { "id": 1, "procedureCode": "99202 - New patient visit (20-29 min)", "provider": "Devon Lane", "payerName": "Ambetter", "startDate": "02/14/2021", "endDate": "08/13/2021", "status": "Active" },
+    { "id": 2, "procedureCode": "99203 - New patient visit (30-44 min)", "provider": "Jacob Jones", "payerName": "Providence Health Plan", "startDate": "04/10/2021", "endDate": "04/10/2021", "status": "Inactive" },
+    { "id": 3, "procedureCode": "99204 - New patient visit (45-59 min)", "provider": "Leslie Alexander", "payerName": "GEICO Health Insurance", "startDate": "08/13/2021", "endDate": "02/14/2021", "status": "Active" },
+    { "id": 4, "procedureCode": "99204 - New patient visit (45-59 min)", "provider": "Robert Fox", "payerName": "Independence Blue Cross", "startDate": "03/07/2021", "endDate": "03/27/2021", "status": "Inactive" },
+    { "id": 5, "procedureCode": "99204 - New patient visit (45-59 min)", "provider": "Annette Black", "payerName": "Mutual of Omaha", "startDate": "05/20/2021", "endDate": "03/07/2021", "status": "Active" },
+    { "id": 6, "procedureCode": "99204 - New patient visit (45-59 min)", "provider": "Cody Fisher", "payerName": "Harvard Pilgrim Health Care", "startDate": "12/02/2021", "endDate": "05/20/2021", "status": "Active" },
+    { "id": 7, "procedureCode": "99204 - New patient visit (45-59 min)", "provider": "Esther Howard", "payerName": "Prudential", "startDate": "01/04/2021", "endDate": "09/17/2021", "status": "Active" },
+    { "id": 8, "procedureCode": "99204 - New patient visit (45-59 min)", "provider": "Floyd Miles", "payerName": "Health Net", "startDate": "04/01/2021", "endDate": "12/02/2021", "status": "Inactive" },
+    { "id": 9, "procedureCode": "99204 - New patient visit (45-59 min)", "provider": "Ralph Edwards", "payerName": "Medical Mutual", "startDate": "11/05/2021", "endDate": "01/04/2021", "status": "Active" },
+    { "id": 10, "procedureCode": "99204 - New patient visit (45-59 min)", "provider": "Brooklyn Simmons", "payerName": "Blue Cross Blue Shield", "startDate": "03/27/2021", "endDate": "04/01/2021", "status": "Active" },
+    { "id": 11, "procedureCode": "99204 - New patient visit (45-59 min)", "provider": "Eleanor Pena", "payerName": "Liberty Mutual Health", "startDate": "08/12/2021", "endDate": "11/05/2021", "status": "Active" },
+    { "id": 12, "procedureCode": "99204 - New patient visit (45-59 min)", "provider": "Guy Hawkins", "payerName": "UnitedHealthcare", "startDate": "09/17/2021", "endDate": "08/12/2021", "status": "Inactive" },
+    { "id": 13, "procedureCode": "99204 - New patient visit (45-59 min)", "provider": "Wade Warren", "payerName": "Centene Corporation", "startDate": "05/08/2021", "endDate": "05/08/2021", "status": "Active" },
+    { "id": 14, "procedureCode": "99212 - Established patient visit (10-19 min)", "provider": "Courtney Henry", "payerName": "EmblemHealth", "startDate": "12/06/2021", "endDate": "12/06/2021", "status": "Active" },
+    { "id": 15, "procedureCode": "99213 - Established patient visit (20-29 min)", "provider": "Theresa Webb", "payerName": "Aetna", "startDate": "01/15/2022", "endDate": "01/15/2023", "status": "Active" },
+    { "id": 16, "procedureCode": "99214 - Established patient visit (30-39 min)", "provider": "Jenny Wilson", "payerName": "Cigna", "startDate": "06/22/2022", "endDate": "06/22/2023", "status": "Inactive" },
+    { "id": 17, "procedureCode": "99215 - Established patient visit (40-54 min)", "provider": "Marvin McKinney", "payerName": "Kaiser Permanente", "startDate": "09/01/2022", "endDate": "09/01/2023", "status": "Active" },
+    { "id": 18, "procedureCode": "90791 - Psychiatric diagnostic evaluation", "provider": "Dianne Russell", "payerName": "Anthem Blue Cross", "startDate": "03/15/2023", "endDate": "03/15/2024", "status": "Active" },
+    { "id": 19, "procedureCode": "90837 - Psychotherapy, 60 minutes", "provider": "Albert Flores", "payerName": "Humana", "startDate": "07/08/2023", "endDate": "07/08/2024", "status": "Active" },
+    { "id": 20, "procedureCode": "90834 - Psychotherapy, 45 minutes", "provider": "Bessie Cooper", "payerName": "Molina Healthcare", "startDate": "10/12/2023", "endDate": "10/12/2024", "status": "Inactive" }
+  ]
+}

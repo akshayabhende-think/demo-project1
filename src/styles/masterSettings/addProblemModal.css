@@ -1,0 +1,97 @@
+.ap-modal .ant-modal-content {
+    border-radius: 12px;
+    padding: 18px 22px 20px;
+}
+
+.ap-modal-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #f1f3f7;
+    margin-bottom: 16px;
+}
+
+.ap-modal-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.ap-modal-close.ant-btn {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    color: #6b7280;
+}
+
+.ap-modal-close.ant-btn:hover {
+    background: #f3f4f6;
+    color: #111827;
+}
+
+.ap-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 14px;
+}
+
+.ap-label {
+    font-size: 13px;
+    font-weight: 500;
+    color: #111827;
+}
+
+.ap-field .ant-input,
+.ap-field textarea.ant-input {
+    border-radius: 8px;
+    border-color: #e5e7eb;
+    font-size: 13px;
+    color: #111827;
+}
+
+.ap-field .ant-input:hover,
+.ap-field .ant-input:focus {
+    border-color: #1677ff;
+    box-shadow: none;
+}
+
+.ap-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-top: 14px;
+    border-top: 1px solid #f1f3f7;
+}
+
+.ap-cancel-btn.ant-btn {
+    height: 36px;
+    border-radius: 8px;
+    border-color: #d1d5db;
+    color: #111827;
+    background: #ffffff;
+    font-weight: 500;
+    box-shadow: none;
+    padding: 0 18px;
+}
+
+.ap-cancel-btn.ant-btn:hover {
+    border-color: #1677ff;
+    color: #1677ff;
+}
+
+.ap-submit-btn.ant-btn {
+    height: 36px;
+    border-radius: 8px;
+    background: #1677ff;
+    border-color: #1677ff;
+    font-weight: 500;
+    box-shadow: none;
+    padding: 0 22px;
+}
+
+.ap-submit-btn.ant-btn:hover {
+    background: #0e5fdc;
+    border-color: #0e5fdc;
+}

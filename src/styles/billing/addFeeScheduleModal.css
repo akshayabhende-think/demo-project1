@@ -1,0 +1,123 @@
+.afs-modal .ant-modal-content {
+    border-radius: 12px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.afs-modal-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 22px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.afs-modal-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.afs-modal-close.ant-btn {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    color: #6b7280;
+}
+
+.afs-modal-close.ant-btn:hover {
+    background: #f3f4f6;
+    color: #111827;
+}
+
+.afs-row {
+    display: grid;
+    gap: 16px;
+    padding: 14px 22px 0;
+}
+
+.afs-row-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.afs-row-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 6px;
+}
+
+.afs-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.afs-label {
+    font-size: 13px;
+    font-weight: 500;
+    color: #111827;
+}
+
+.afs-field .ant-input,
+.afs-field .ant-select-selector,
+.afs-field .ant-picker {
+    height: 38px;
+    border-radius: 8px;
+    border-color: #e5e7eb;
+    box-shadow: none;
+    font-size: 13px;
+    color: #111827;
+}
+
+.afs-field .ant-select-single .ant-select-selector {
+    align-items: center;
+}
+
+.afs-field .ant-input:hover,
+.afs-field .ant-input:focus,
+.afs-field .ant-picker:hover,
+.afs-field .ant-picker-focused,
+.afs-field .ant-select:not(.ant-select-disabled):hover .ant-select-selector,
+.afs-field .ant-select-focused .ant-select-selector {
+    border-color: #1677ff;
+    box-shadow: none;
+}
+
+.afs-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 14px 22px;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 16px;
+}
+
+.afs-cancel-btn.ant-btn {
+    height: 38px;
+    border-radius: 8px;
+    border-color: #d1d5db;
+    color: #111827;
+    background: #ffffff;
+    font-weight: 500;
+    box-shadow: none;
+    padding: 0 22px;
+}
+
+.afs-cancel-btn.ant-btn:hover {
+    border-color: #1677ff;
+    color: #1677ff;
+}
+
+.afs-submit-btn.ant-btn {
+    height: 38px;
+    border-radius: 8px;
+    background: #1677ff;
+    border-color: #1677ff;
+    font-weight: 500;
+    box-shadow: none;
+    padding: 0 22px;
+}
+
+.afs-submit-btn.ant-btn:hover {
+    background: #0e5fdc;
+    border-color: #0e5fdc;
+}

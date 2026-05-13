@@ -1,0 +1,233 @@
+.appt-page {
+    padding: 16px 20px;
+}
+
+.appt-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+.appt-back-btn.ant-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    color: #111827;
+}
+
+.appt-back-btn.ant-btn:hover {
+    background: #eef2ff;
+    color: #1677ff;
+}
+
+.appt-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.appt-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 8px;
+}
+
+.appt-tabs {
+    display: inline-flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.appt-tab {
+    background: none;
+    border: none;
+    padding: 6px 2px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #6b7280;
+    cursor: pointer;
+    font-family: inherit;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -9px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.appt-tab:hover {
+    color: #1677ff;
+}
+
+.appt-tab.is-active {
+    color: #1677ff;
+    border-bottom-color: #1677ff;
+}
+
+.appt-toolbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.appt-search.ant-input-affix-wrapper {
+    width: 260px;
+    height: 36px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    background: #ffffff;
+    padding: 0 12px;
+    box-shadow: none;
+}
+
+.appt-search.ant-input-affix-wrapper:hover,
+.appt-search.ant-input-affix-wrapper-focused {
+    border-color: #c7d2fe;
+    box-shadow: none;
+}
+
+.appt-search .anticon {
+    color: #9ca3af;
+    margin-right: 8px;
+}
+
+.appt-provider-filter.ant-select {
+    width: 200px;
+}
+
+.appt-provider-filter.ant-select .ant-select-selector {
+    height: 36px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.appt-table .ant-table-thead > tr > th {
+    padding: 14px 18px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #6b7280;
+    background: #f9fafb;
+    white-space: nowrap;
+}
+
+.appt-table .ant-table-tbody > tr > td {
+    padding: 16px 18px;
+    font-size: 14px;
+    color: #4b5563;
+    font-weight: 400;
+}
+
+.appt-table .ant-table-body,
+.appt-table .ant-table-content {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.appt-table .ant-table-body::-webkit-scrollbar,
+.appt-table .ant-table-content::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.appt-name-cell {
+    font-weight: 700;
+    color: #111827;
+}
+
+.appt-add-holiday-btn.ant-btn {
+    height: 36px;
+    border-radius: 10px;
+    background: #1677ff;
+    border-color: #1677ff;
+    font-weight: 500;
+    box-shadow: none;
+    padding: 0 18px;
+}
+
+.appt-add-holiday-btn.ant-btn:hover {
+    background: #0e5fdc;
+    border-color: #0e5fdc;
+}
+
+.appt-holiday-edit-btn.ant-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    color: #1677ff;
+}
+
+.appt-holiday-edit-btn.ant-btn:hover {
+    background: #eaf1ff;
+    color: #1677ff;
+}
+
+.appt-color-swatch {
+    display: inline-block;
+    width: 64px;
+    height: 22px;
+    border-radius: 6px;
+}
+
+.appt-row-action-btn.ant-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    color: #6b7280;
+}
+
+.appt-row-action-btn.ant-btn:hover {
+    background: #f3f4f6;
+    color: #111827;
+}
+
+.appt-empty-tab {
+    padding: 48px 16px;
+    text-align: center;
+    color: #6b7280;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 900px) {
+    .appt-toolbar {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+    }
+
+    .appt-tabs {
+        gap: 16px;
+        overflow-x: auto;
+    }
+
+    .appt-tab {
+        white-space: nowrap;
+    }
+
+    .appt-toolbar-actions {
+        margin-left: 0;
+        flex-wrap: wrap;
+    }
+
+    .appt-search.ant-input-affix-wrapper {
+        flex: 1;
+        width: auto;
+        min-width: 0;
+    }
+
+    .appt-provider-filter.ant-select {
+        flex: 1;
+        width: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .appt-page {
+        padding: 12px;
+    }
+}

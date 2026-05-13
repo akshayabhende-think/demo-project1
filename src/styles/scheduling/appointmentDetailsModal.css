@@ -1,0 +1,159 @@
+.appt-modal-title {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.appt-modal-title-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.appt-modal-title-status.ant-tag {
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 12px;
+    border: none;
+}
+
+.appt-modal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding-top: 4px;
+}
+
+.appt-modal-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.appt-modal-card-tinted {
+    background: #eaf1ff;
+    border-color: #dbeafe;
+}
+
+.appt-modal-name-row {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.appt-modal-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #111827;
+}
+
+.appt-modal-id {
+    color: #1677ff;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.appt-modal-grid {
+    display: grid;
+    gap: 12px 24px;
+}
+
+.appt-modal-grid-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.appt-modal-grid-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.appt-modal-field {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 0;
+}
+
+.appt-modal-field-label {
+    font-size: 12px;
+    color: #6b7280;
+}
+
+.appt-modal-field-value {
+    font-size: 14px;
+    color: #111827;
+    font-weight: 500;
+    word-break: break-word;
+}
+
+.appt-modal-mask {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.appt-modal-mask-toggle {
+    color: #9ca3af;
+    cursor: pointer;
+}
+
+.appt-modal-mask-toggle:hover {
+    color: #374151;
+}
+
+.appt-modal-section-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #111827;
+    margin: 0 0 10px;
+}
+
+.appt-modal-forms {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    color: #4b5563;
+    font-size: 13px;
+}
+
+.appt-modal-status-row {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.appt-modal-status-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.appt-modal-status-select.ant-select {
+    width: 240px;
+}
+
+.appt-modal-status-option {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.appt-modal-status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+@media (max-width: 900px) {
+    .appt-modal-grid-5 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .appt-modal-grid-4 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}

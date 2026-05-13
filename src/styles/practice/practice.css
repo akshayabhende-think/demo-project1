@@ -1,0 +1,834 @@
+.prac-page {
+    padding: 16px 20px;
+    height: calc(100vh - 88px);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.prac-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+    flex-shrink: 0;
+}
+
+.prac-back-btn.ant-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    color: #111827;
+}
+
+.prac-back-btn.ant-btn:hover {
+    background: #eef2ff;
+    color: #1677ff;
+}
+
+.prac-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.prac-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 12px;
+    flex-shrink: 0;
+}
+
+.prac-tabs {
+    display: inline-flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.prac-tab {
+    background: none;
+    border: none;
+    padding: 6px 2px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #6b7280;
+    cursor: pointer;
+    font-family: inherit;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -9px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.prac-tab:hover {
+    color: #1677ff;
+}
+
+.prac-tab.is-active {
+    color: #1677ff;
+    border-bottom-color: #1677ff;
+}
+
+.prac-edit-btn.ant-btn {
+    height: 36px;
+    border-radius: 8px;
+    border-color: #c7dbff;
+    color: #1677ff;
+    background: #ffffff;
+    font-weight: 500;
+    box-shadow: none;
+    padding: 0 16px;
+}
+
+.prac-edit-btn.ant-btn:hover {
+    background: #eaf1ff;
+    border-color: #1677ff;
+    color: #1677ff;
+}
+
+.prac-body {
+    display: grid;
+    grid-template-columns: 320px minmax(0, 1fr);
+    gap: 16px;
+    align-items: start;
+    overflow-y: auto;
+    min-height: 0;
+    padding-right: 4px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.prac-body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.prac-sidebar {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.prac-sidebar-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.prac-hospital-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.prac-badge.ant-tag {
+    background: #eaf1ff;
+    color: #1677ff;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 11px;
+    padding: 2px 10px;
+}
+
+.prac-photo {
+    width: 100%;
+    height: 160px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #cbd5e1 0%, #94a3b8 100%);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 56px;
+}
+
+.prac-sidebar-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.prac-side-field {
+    display: grid;
+    grid-template-columns: 130px minmax(0, 1fr);
+    align-items: start;
+    gap: 10px;
+}
+
+.prac-side-label {
+    color: #6b7280;
+    font-size: 12px;
+}
+
+.prac-side-value {
+    color: #111827;
+    font-size: 12px;
+    font-weight: 500;
+    white-space: pre-line;
+    word-break: break-word;
+}
+
+.prac-info-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 18px 20px;
+}
+
+.prac-info-title {
+    margin: 0 0 16px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1677ff;
+}
+
+.prac-info-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 28px;
+    row-gap: 16px;
+}
+
+.prac-info-field {
+    display: grid;
+    grid-template-columns: 160px minmax(0, 1fr);
+    align-items: start;
+    column-gap: 12px;
+}
+
+.prac-info-wide {
+    grid-column: 1 / -1;
+}
+
+.prac-info-label {
+    color: #6b7280;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.prac-info-value {
+    color: #111827;
+    font-size: 13px;
+    font-weight: 500;
+    white-space: pre-line;
+    line-height: 1.6;
+    word-break: break-word;
+}
+
+.prac-office-hours {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.prac-office-row {
+    display: grid;
+    grid-template-columns: 100px minmax(0, 1fr);
+    color: #111827;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.prac-office-day {
+    color: #4b5563;
+    font-weight: 500;
+}
+
+.prac-empty-tab {
+    padding: 48px 16px;
+    text-align: center;
+    color: #6b7280;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+}
+
+.prac-add-location-btn.ant-btn {
+    height: 36px;
+    border-radius: 8px;
+    background: #1677ff;
+    border-color: #1677ff;
+    font-weight: 500;
+    box-shadow: none;
+    padding: 0 18px;
+}
+
+.prac-add-location-btn.ant-btn:hover {
+    background: #0e5fdc;
+    border-color: #0e5fdc;
+}
+
+.prac-loc-body {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    overflow-y: auto;
+    min-height: 0;
+    padding-right: 4px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.prac-loc-body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.prac-loc-summary {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 16px 18px;
+    display: grid;
+    grid-template-columns: 160px minmax(0, 1fr);
+    gap: 18px;
+    align-items: start;
+}
+
+.prac-loc-summary-photo {
+    width: 100%;
+    height: 110px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #cbd5e1 0%, #94a3b8 100%);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+}
+
+.prac-loc-summary-content {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.prac-loc-fields-grid {
+    display: grid;
+    grid-template-columns: 130px minmax(0, 1fr);
+    column-gap: 14px;
+    row-gap: 6px;
+}
+
+.prac-loc-field {
+    display: contents;
+}
+
+.prac-loc-label {
+    color: #6b7280;
+    font-size: 12px;
+}
+
+.prac-loc-value {
+    color: #111827;
+    font-size: 13px;
+    font-weight: 500;
+    white-space: pre-line;
+    word-break: break-word;
+}
+
+.prac-loc-name-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.prac-locations-table .ant-table-thead > tr > th {
+    padding: 14px 18px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #6b7280;
+    background: #f9fafb;
+    white-space: nowrap;
+}
+
+.prac-locations-table .ant-table-tbody > tr > td {
+    padding: 16px 18px;
+    font-size: 14px;
+    color: #4b5563;
+    font-weight: 400;
+}
+
+.prac-locations-table .ant-table-body,
+.prac-locations-table .ant-table-content {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.prac-locations-table .ant-table-body::-webkit-scrollbar,
+.prac-locations-table .ant-table-content::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.prac-location-name {
+    color: #111827;
+    font-weight: 600;
+}
+
+.prac-status-cell {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.prac-status-label {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.prac-status-active {
+    color: #1677ff;
+}
+
+.prac-status-inactive {
+    color: #6b7280;
+}
+
+.prac-row-action-btn.ant-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    color: #6b7280;
+}
+
+.prac-row-action-btn.ant-btn:hover {
+    background: #f3f4f6;
+    color: #111827;
+}
+
+.prac-add-user-btn {
+    margin-bottom: 8px;
+}
+
+.prac-add-user-btn .ant-btn {
+    height: 36px;
+    border-radius: 8px;
+    background: #1677ff;
+    border-color: #1677ff;
+    font-weight: 500;
+    box-shadow: none;
+}
+
+.prac-add-user-btn .ant-btn:first-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 0 16px;
+}
+
+.prac-add-user-btn .ant-btn:last-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0 10px;
+}
+
+.prac-add-user-btn .ant-btn:hover {
+    background: #0e5fdc;
+    border-color: #0e5fdc;
+}
+
+.prac-users-body {
+    overflow-y: auto;
+    min-height: 0;
+    padding-right: 4px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.prac-users-body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.prac-users-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.uc-card {
+    position: relative;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 14px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.uc-edit-btn.ant-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    color: #6b7280;
+}
+
+.uc-edit-btn.ant-btn:hover {
+    background: #eef2ff;
+    color: #1677ff;
+}
+
+.uc-head {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.uc-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+.uc-head-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 0;
+}
+
+.uc-name {
+    font-weight: 600;
+    color: #111827;
+    font-size: 14px;
+}
+
+.uc-role.ant-tag {
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 10px;
+    padding: 1px 8px;
+    border: none;
+    margin: 0;
+    width: fit-content;
+}
+
+.uc-role.uc-role-receptionist {
+    background: #fde8e8;
+    color: #d92d20;
+}
+
+.uc-role.uc-role-lpha {
+    background: #ede9fe;
+    color: #6d28d9;
+}
+
+.uc-role.uc-role-counsellor {
+    background: #fef3c7;
+    color: #b54708;
+}
+
+.uc-role.uc-role-admin {
+    background: #d1fae5;
+    color: #047857;
+}
+
+.uc-last-login {
+    color: #9ca3af;
+    font-size: 11px;
+}
+
+.uc-row {
+    display: grid;
+    grid-template-columns: 18px minmax(0, 1fr) 22px;
+    align-items: center;
+    gap: 8px;
+}
+
+.uc-row-icon {
+    color: #1677ff;
+    font-size: 14px;
+}
+
+.uc-row-text {
+    color: #4b5563;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.uc-copy-btn {
+    background: none;
+    border: none;
+    color: #9ca3af;
+    cursor: pointer;
+    padding: 2px;
+    font-family: inherit;
+    border-radius: 4px;
+}
+
+.uc-copy-btn:hover {
+    background: #f3f4f6;
+    color: #4b5563;
+}
+
+.uc-status-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-top: 1px solid #f1f3f7;
+    padding-top: 8px;
+    font-size: 12px;
+}
+
+.uc-status-label {
+    color: #6b7280;
+}
+
+.uc-status-text {
+    font-weight: 500;
+}
+
+.uc-status-text.is-active {
+    color: #1677ff;
+}
+
+.uc-status-text.is-inactive {
+    color: #9ca3af;
+}
+
+.pc-body {
+    overflow-y: auto;
+    min-height: 0;
+    padding-right: 4px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.pc-body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.pc-description {
+    margin: 0;
+    color: #6b7280;
+    font-size: 13px;
+}
+
+.pc-header-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.pc-header-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 16px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.pc-header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pc-header-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.pc-header-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.pc-edit-btn.ant-btn {
+    height: 30px;
+    border-radius: 6px;
+    border-color: #c7dbff;
+    color: #1677ff;
+    background: #ffffff;
+    font-weight: 500;
+    box-shadow: none;
+    padding: 0 12px;
+}
+
+.pc-edit-btn.ant-btn:hover {
+    background: #eaf1ff;
+    border-color: #1677ff;
+    color: #1677ff;
+}
+
+.pc-delete-btn.ant-btn {
+    height: 30px;
+    border-radius: 6px;
+    border-color: #fda4af;
+    color: #d92d20;
+    background: #ffffff;
+    font-weight: 500;
+    box-shadow: none;
+    padding: 0 12px;
+}
+
+.pc-delete-btn.ant-btn:hover {
+    background: #fde8e8;
+    border-color: #d92d20;
+    color: #d92d20;
+}
+
+.pc-default-radio.ant-radio-wrapper {
+    color: #4b5563;
+    font-size: 13px;
+}
+
+.pc-header-preview {
+    padding: 8px 4px 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-top: 1px dashed #e5e7eb;
+    padding-top: 12px;
+}
+
+.pc-align-left {
+    align-items: flex-start;
+    text-align: left;
+}
+
+.pc-align-center {
+    align-items: center;
+    text-align: center;
+}
+
+.pc-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.pc-logo-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    background: linear-gradient(135deg, #f97316 0%, #fb923c 50%, #1677ff 100%);
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.pc-logo-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+}
+
+.pc-logo-line1 {
+    font-size: 13px;
+    font-weight: 700;
+    color: #1677ff;
+}
+
+.pc-logo-line2 {
+    font-size: 13px;
+    font-weight: 700;
+    color: #1677ff;
+}
+
+.pc-header-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.pc-meta-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.pc-meta-line {
+    font-size: 12px;
+    color: #4b5563;
+}
+
+@media (max-width: 1280px) {
+    .prac-users-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 900px) {
+    .prac-users-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .prac-users-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 1100px) {
+    .prac-body {
+        grid-template-columns: 1fr;
+    }
+    .prac-info-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+    .prac-page {
+        height: auto;
+        overflow: visible;
+    }
+    .prac-toolbar {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+    }
+    .prac-tabs {
+        gap: 16px;
+        overflow-x: auto;
+    }
+    .prac-tab {
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 480px) {
+    .prac-page {
+        padding: 12px;
+    }
+}

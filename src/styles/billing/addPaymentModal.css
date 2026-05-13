@@ -1,0 +1,184 @@
+.pay-modal .ant-modal-content {
+    border-radius: 12px;
+    padding: 18px 20px 20px;
+}
+
+.pay-modal-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e5e7eb;
+    margin-bottom: 16px;
+}
+
+.pay-modal-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.pay-modal-close.ant-btn {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    color: #6b7280;
+}
+
+.pay-modal-close.ant-btn:hover {
+    background: #f3f4f6;
+    color: #111827;
+}
+
+.pay-patient-card {
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.pay-patient-line {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.pay-patient-name {
+    font-size: 15px;
+    font-weight: 700;
+    color: #111827;
+}
+
+.pay-patient-meta {
+    color: #6b7280;
+    font-size: 12px;
+}
+
+.pay-patient-contact {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.pay-contact-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #4b5563;
+    font-size: 13px;
+}
+
+.pay-contact-item .anticon {
+    color: #6b7280;
+}
+
+.pay-due-row {
+    background: #f4f6fb;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #111827;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.pay-due-value {
+    font-weight: 700;
+    color: #111827;
+}
+
+.pay-field {
+    margin-bottom: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.pay-label {
+    font-size: 13px;
+    font-weight: 500;
+    color: #111827;
+}
+
+.pay-field .ant-input {
+    height: 42px;
+    border-radius: 8px;
+}
+
+.pay-method-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.pay-method-radio.ant-radio-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    margin: 0;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 12px 14px;
+    color: #111827;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.pay-method-radio.ant-radio-wrapper:hover {
+    border-color: #c7dbff;
+}
+
+.pay-method-radio.ant-radio-wrapper.ant-radio-wrapper-checked {
+    border-color: #1677ff;
+    background: #f5f9ff;
+}
+
+.pay-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 18px;
+    padding-top: 14px;
+    border-top: 1px solid #e5e7eb;
+}
+
+.pay-cancel-btn.ant-btn {
+    height: 38px;
+    border-radius: 8px;
+    border-color: #d1d5db;
+    color: #111827;
+    background: #ffffff;
+    font-weight: 500;
+    box-shadow: none;
+    padding: 0 22px;
+}
+
+.pay-cancel-btn.ant-btn:hover {
+    border-color: #1677ff;
+    color: #1677ff;
+}
+
+.pay-collect-btn.ant-btn {
+    height: 38px;
+    border-radius: 8px;
+    background: #1677ff;
+    border-color: #1677ff;
+    font-weight: 500;
+    box-shadow: none;
+    padding: 0 26px;
+}
+
+.pay-collect-btn.ant-btn:hover {
+    background: #0e5fdc;
+    border-color: #0e5fdc;
+}

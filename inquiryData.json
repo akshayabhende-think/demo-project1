@@ -1,0 +1,166 @@
+{
+    "inquiries": [
+        
+  {
+    "id": 1,
+    "name": "Amelia Green",
+    "email": "amelia.green@example.com",
+    "phone": "(123) 456-7810",
+    "message": "-",
+    "status": "Closed"
+  },
+  {
+    "id": 2,
+    "name": "Alexander Scott",
+    "email": "alexander.scott@example.com",
+    "phone": "(123) 456-7809",
+    "message": "-",
+    "status": "New"
+  },
+  {
+    "id": 3,
+    "name": "Charlotte Wright",
+    "email": "charlotte.wright@example.com",
+    "phone": "(123) 456-7808",
+    "message": "-",
+    "status": "New"
+  },
+  {
+    "id": 4,
+    "name": "Henry King",
+    "email": "henry.king@example.com",
+    "phone": "(123) 456-7807",
+    "message": "-",
+    "status": "New"
+  },
+  {
+    "id": 5,
+    "name": "Mia Young",
+    "email": "mia.young@example.com",
+    "phone": "(123) 456-7806",
+    "message": "-",
+    "status": "Contacted"
+  },
+  {
+    "id": 6,
+    "name": "Lucas Allen",
+    "email": "lucas.allen@example.com",
+    "phone": "(123) 456-7805",
+    "message": "-",
+    "status": "New"
+  },
+  {
+    "id": 7,
+    "name": "Isabella Hall",
+    "email": "isabella.hall@example.com",
+    "phone": "(123) 456-7804",
+    "message": "-",
+    "status": "New"
+  },
+  {
+    "id": 8,
+    "name": "Benjamin Walker",
+    "email": "benjamin.walker@example.com",
+    "phone": "(123) 456-7803",
+    "message": "-",
+    "status": "New"
+  },
+  {
+    "id": 9,
+    "name": "Ava Lewis",
+    "email": "ava.lewis@example.com",
+    "phone": "(123) 456-7802",
+    "message": "-",
+    "status": "New"
+  },
+  {
+    "id": 10,
+    "name": "William Clark",
+    "email": "william.clark@example.com",
+    "phone": "(123) 456-7801",
+    "message": "-",
+    "status": "Closed"
+  },
+  {
+    "id": 11,
+    "name": "Olivia Harris",
+    "email": "olivia.harris@example.com",
+    "phone": "(123) 456-7800",
+    "message": "-",
+    "status": "New"
+  },
+  {
+    "id": 12,
+    "name": "James Thomas",
+    "email": "james.thomas@example.com",
+    "phone": "(123) 456-7899",
+    "message": "-",
+    "status": "New"
+  },
+  {
+    "id": 13,
+    "name": "Sophia Martinez",
+    "email": "sophia.martinez@example.com",
+    "phone": "(123) 456-7898",
+    "message": "-",
+    "status": "New"
+  },
+  {
+    "id": 14,
+    "name": "Daniel Anderson",
+    "email": "daniel.anderson@example.com",
+    "phone": "(123) 456-7897",
+    "message": "-",
+    "status": "New"
+  },
+  {
+    "id": 15,
+    "name": "David Wilson",
+    "email": "david.wilson@example.com",
+    "phone": "(123) 456-7895",
+    "message": "-",
+    "status": "Scheduled"
+  },
+  {
+    "id": 16,
+    "name": "Sarah Davis",
+    "email": "sarah.davis@example.com",
+    "phone": "(123) 456-7894",
+    "message": "-",
+    "status": "New"
+  },
+  {
+    "id": 17,
+    "name": "Michael Brown",
+    "email": "michael.brown@example.com",
+    "phone": "(123) 456-7893",
+    "message": "-",
+    "status": "New"
+  },
+  {
+    "id": 18,
+    "name": "Emily Johnson",
+    "email": "emily.johnson@example.com",
+    "phone": "(123) 456-7892",
+    "message": "-",
+    "status": "New"
+  },
+  {
+    "id": 19,
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "(123) 456-7891",
+    "message": "-",
+    "status": "Converted"
+  },
+  {
+    "id": 20,
+    "name": "Laura Taylor",
+    "email": "laura.taylor@example.com",
+    "phone": "(123) 456-7896",
+    "message": "-",
+    "status": "New"
+  }
+]
+
+}

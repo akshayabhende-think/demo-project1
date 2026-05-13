@@ -1,0 +1,34 @@
+.prospect-table .ant-table-body,
+.prospect-table .ant-table-content {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.prospect-table .ant-table-body::-webkit-scrollbar,
+.prospect-table .ant-table-content::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.prospect-table .ant-table-thead > tr > th,
+.prospect-table .ant-table-tbody > tr > td {
+    padding: 18px 10px;
+}
+
+.prospect-table .ant-table-tbody > tr > td {
+    font-size: 15px;
+}
+
+.prospect-name-link {
+    color: #111827;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.prospect-name-link:hover {
+    color: #1677ff;
+    text-decoration: underline;
+}
+

@@ -1,0 +1,95 @@
+.prospect-view-popover {
+    width: 380px;
+    padding: 4px;
+}
+
+.prospect-view-popover-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.prospect-view-popover-title {
+    font-weight: 600;
+    font-size: 15px;
+    color: #111827;
+}
+
+.prospect-view-popover-close {
+    cursor: pointer;
+    color: #9ca3af;
+}
+
+.prospect-view-popover-close:hover {
+    color: #374151;
+}
+
+.prospect-action-trigger {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prospect-view-card {
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 16px;
+    background: #ffffff;
+}
+
+.prospect-view-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 14px;
+}
+
+.prospect-view-name {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 6px;
+}
+
+.prospect-view-name-text {
+    font-weight: 600;
+    font-size: 15px;
+    color: #111827;
+}
+
+.prospect-view-id {
+    color: #6b7280;
+    font-size: 13px;
+}
+
+.prospect-view-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 12px;
+}
+
+.prospect-view-row:last-child {
+    margin-bottom: 0;
+}
+
+.prospect-view-field {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 6px;
+    font-size: 13px;
+}
+
+.prospect-view-field-label {
+    color: #6b7280;
+}
+
+.prospect-view-field-value {
+    color: #111827;
+    font-weight: 500;
+}

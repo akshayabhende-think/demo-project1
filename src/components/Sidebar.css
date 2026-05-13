@@ -1,0 +1,54 @@
+.sidebar-dropdown{
+    position: absolute;
+    top: 60px;
+    left: 10px;
+
+    width: 220px;
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 8px 0;
+    z-index: 200;
+}
+
+.menu-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    transition: background 0.2s;
+}
+
+.menu-item:hover{
+    background: #f3f4f6;
+}
+
+.menu-item.active {
+  background: #e6f0ff;
+  color: #2563eb;
+  font-weight: 500;
+}
+
+.icon {
+  font-size: 16px;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 480px) {
+    .sidebar-dropdown {
+        width: min(90vw, 280px);
+        left: 8px;
+        right: 8px;
+    }
+}

@@ -1,0 +1,187 @@
+.scheduling-month-wrap {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .scheduling-month-wrap {
+        overflow-x: auto;
+    }
+    .scheduling-month-header,
+    .scheduling-month-body {
+        min-width: 720px;
+    }
+}
+
+/* Header row */
+.scheduling-month-header {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.scheduling-month-header-cell {
+    padding: 12px 0;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    color: #4b5563;
+    border-right: 1px solid #f0f0f0;
+}
+
+.scheduling-month-header-cell:last-child {
+    border-right: none;
+}
+
+.scheduling-month-header-cell.is-weekend {
+    color: #9ca3af;
+}
+
+/* Body grid: 7 cols × 6 rows */
+.scheduling-month-body {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    grid-auto-rows: minmax(110px, 1fr);
+    max-height: calc(100vh - 280px);
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.scheduling-month-body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.scheduling-month-cell {
+    border-right: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-height: 120px;
+    position: relative;
+}
+
+.scheduling-month-cell:nth-child(7n) {
+    border-right: none;
+}
+
+.scheduling-month-cell.is-weekend {
+    background-image: repeating-linear-gradient(
+        45deg,
+        #fafafa,
+        #fafafa 4px,
+        #ffffff 4px,
+        #ffffff 8px
+    );
+}
+
+.scheduling-month-cell-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.scheduling-month-cell-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 24px;
+    height: 24px;
+    padding: 0 6px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #4b5563;
+}
+
+.scheduling-month-cell.is-out-of-month .scheduling-month-cell-number {
+    color: #d1d5db;
+}
+
+.scheduling-month-cell-number.is-today {
+    background: #1677ff;
+    color: #ffffff;
+}
+
+/* Event chips inside a cell */
+.scheduling-month-cell-events {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    overflow: hidden;
+}
+
+.scheduling-month-event {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+    background: #eaf1ff;
+    border-left: 3px solid #1677ff;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 12px;
+    color: #111827;
+    overflow: hidden;
+    cursor: pointer;
+    transition: filter 0.15s ease;
+}
+
+.scheduling-month-event:hover {
+    filter: brightness(0.97);
+}
+
+.scheduling-month-event-title {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+.scheduling-month-event-time {
+    font-size: 11px;
+    color: #6b7280;
+    white-space: nowrap;
+}
+
+/* Status variants */
+.scheduling-month-event.scheduling-event-status-error {
+    background: #fff7f0;
+    border-left-color: #c2410c;
+}
+
+.scheduling-month-event.scheduling-event-status-cancelled {
+    background: #fef2f2;
+    border-left-color: #dc2626;
+}
+
+.scheduling-month-event.scheduling-event-status-no-show {
+    background: #fff7ed;
+    border-left-color: #f97316;
+}
+
+.scheduling-month-event.scheduling-event-status-completed {
+    background: #ecfdf5;
+    border-left-color: #059669;
+}
+
+.scheduling-month-more {
+    font-size: 12px;
+    color: #6b7280;
+    padding: 2px 6px;
+    cursor: pointer;
+}
+
+.scheduling-month-more:hover {
+    color: #1677ff;
+}

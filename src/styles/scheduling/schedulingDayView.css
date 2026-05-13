@@ -1,0 +1,219 @@
+.scheduling-day-wrap {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Day header (e.g. "Tue 5") */
+.scheduling-day-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 10px 0;
+}
+
+.scheduling-day-header-spacer {
+    width: 64px;
+    flex-shrink: 0;
+}
+
+.scheduling-day-header-cell {
+    flex: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #4b5563;
+    font-weight: 500;
+}
+
+.scheduling-day-header-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 26px;
+    height: 26px;
+    padding: 0 8px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #4b5563;
+}
+
+.scheduling-day-header-number.is-today {
+    background: #1677ff;
+    color: #ffffff;
+}
+
+/* Body (scrollable hours) */
+.scheduling-day {
+    overflow-y: auto;
+    max-height: calc(100vh - 280px);
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.scheduling-day::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.scheduling-day-grid {
+    position: relative;
+    padding-left: 64px;
+}
+
+/* Hour rows */
+.scheduling-day-hour-row {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+.scheduling-day-hour-label {
+    position: absolute;
+    left: 0;
+    top: -8px;
+    width: 60px;
+    text-align: right;
+    padding-right: 12px;
+    font-size: 12px;
+    color: #9ca3af;
+    font-weight: 500;
+}
+
+.scheduling-day-hour-line {
+    flex: 1;
+    border-top: 1px solid #f0f0f0;
+    margin-left: 64px;
+}
+
+/* Now indicator */
+.scheduling-day-now {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.scheduling-day-now-dot {
+    position: absolute;
+    left: 60px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #1677ff;
+    transform: translate(-50%, -50%);
+}
+
+.scheduling-day-now-line {
+    flex: 1;
+    margin-left: 64px;
+    height: 1px;
+    background: #1677ff;
+}
+
+/* Event canvas */
+.scheduling-day-events {
+    position: absolute;
+    left: 64px;
+    right: 8px;
+    top: 0;
+    bottom: 0;
+}
+
+.scheduling-event {
+    position: absolute;
+    border-radius: 6px;
+    padding: 8px 12px;
+    background: #eaf1ff;
+    border-left: 4px solid #1677ff;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    overflow: hidden;
+    transition: box-shadow 0.15s ease;
+    cursor: pointer;
+}
+
+.scheduling-event:hover {
+    box-shadow: 0 2px 8px rgba(22, 119, 255, 0.15);
+}
+
+.scheduling-event-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.scheduling-event-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: #111827;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.scheduling-event-time {
+    font-size: 12px;
+    color: #6b7280;
+    white-space: nowrap;
+}
+
+.scheduling-event-status {
+    font-size: 12px;
+    color: #1677ff;
+    font-weight: 500;
+}
+
+/* Status variants used by week view (kept here so day view inherits) */
+.scheduling-event.scheduling-event-status-error {
+    background: #fff7f0;
+    border-left-color: #c2410c;
+}
+
+.scheduling-event.scheduling-event-status-error .scheduling-event-status {
+    color: #c2410c;
+}
+
+.scheduling-event.scheduling-event-status-cancelled {
+    background: #fef2f2;
+    border-left-color: #dc2626;
+}
+
+.scheduling-event.scheduling-event-status-cancelled .scheduling-event-status {
+    color: #dc2626;
+}
+
+.scheduling-event.scheduling-event-status-no-show {
+    background: #fff7ed;
+    border-left-color: #f97316;
+}
+
+.scheduling-event.scheduling-event-status-no-show .scheduling-event-status {
+    color: #c2410c;
+}
+
+.scheduling-event.scheduling-event-status-completed {
+    background: #ecfdf5;
+    border-left-color: #059669;
+}
+
+.scheduling-event.scheduling-event-status-completed .scheduling-event-status {
+    color: #047857;
+}

@@ -1,0 +1,242 @@
+.ud-modal .ant-modal-content {
+    border-radius: 12px;
+    padding: 18px 22px 20px;
+}
+
+.ud-modal-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #f1f3f7;
+    margin-bottom: 16px;
+}
+
+.ud-modal-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.ud-modal-close.ant-btn {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    color: #6b7280;
+}
+
+.ud-modal-close.ant-btn:hover {
+    background: #f3f4f6;
+    color: #111827;
+}
+
+.ud-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 18px;
+    max-width: 320px;
+}
+
+.ud-label {
+    font-size: 13px;
+    font-weight: 500;
+    color: #111827;
+}
+
+.ud-field .ant-select-selector {
+    height: 38px;
+    border-radius: 8px;
+}
+
+.ud-field .ant-select-single .ant-select-selector {
+    align-items: center;
+    height: 38px;
+}
+
+.ud-step {
+    margin-bottom: 18px;
+}
+
+.ud-step-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.ud-step-num {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #1677ff;
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+.ud-step-label {
+    font-size: 13px;
+    color: #111827;
+    font-weight: 500;
+}
+
+.ud-template-btn.ant-btn {
+    height: 36px;
+    border-radius: 8px;
+    border-color: #c7dbff;
+    color: #1677ff;
+    background: #ffffff;
+    font-weight: 500;
+    box-shadow: none;
+    padding: 0 14px;
+}
+
+.ud-template-btn.ant-btn:hover {
+    background: #eaf1ff;
+    border-color: #1677ff;
+    color: #1677ff;
+}
+
+.ud-sample-table {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.ud-sample-row {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    border-bottom: 1px solid #f1f3f7;
+}
+
+.ud-sample-row:last-child {
+    border-bottom: none;
+}
+
+.ud-sample-row > span {
+    padding: 10px 14px;
+    font-size: 13px;
+    color: #4b5563;
+    border-right: 1px solid #f1f3f7;
+}
+
+.ud-sample-row > span:last-child {
+    border-right: none;
+}
+
+.ud-sample-letters {
+    background: #f4f6fb;
+}
+
+.ud-sample-letters > span {
+    color: #6b7280;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+}
+
+.ud-sample-headers > span {
+    color: #4b5563;
+    font-weight: 500;
+}
+
+.ud-sample-data > span {
+    color: #111827;
+}
+
+.ud-upload-area {
+    border: 1px dashed #c7dbff;
+    border-radius: 10px;
+    padding: 22px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    transition: background 0.15s ease, border-color 0.15s ease;
+    background: #ffffff;
+}
+
+.ud-upload-area:hover {
+    background: #f7faff;
+    border-color: #1677ff;
+}
+
+.ud-upload-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #f3f4f6;
+    color: #4b5563;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.ud-upload-text {
+    font-size: 13px;
+    color: #4b5563;
+}
+
+.ud-upload-link {
+    color: #1677ff;
+    font-weight: 600;
+}
+
+.ud-upload-hint {
+    color: #9ca3af;
+    font-size: 12px;
+}
+
+.ud-upload-filename {
+    font-size: 12px;
+    color: #1677ff;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+.ud-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-top: 14px;
+    border-top: 1px solid #f1f3f7;
+}
+
+.ud-cancel-btn.ant-btn {
+    height: 38px;
+    border-radius: 8px;
+    border-color: #d1d5db;
+    color: #111827;
+    background: #ffffff;
+    font-weight: 500;
+    box-shadow: none;
+    padding: 0 22px;
+}
+
+.ud-cancel-btn.ant-btn:hover {
+    border-color: #1677ff;
+    color: #1677ff;
+}
+
+.ud-upload-btn.ant-btn {
+    height: 38px;
+    border-radius: 8px;
+    background: #1677ff;
+    border-color: #1677ff;
+    font-weight: 500;
+    box-shadow: none;
+    padding: 0 26px;
+}
+
+.ud-upload-btn.ant-btn:hover {
+    background: #0e5fdc;
+    border-color: #0e5fdc;
+}

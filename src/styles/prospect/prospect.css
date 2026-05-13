@@ -1,0 +1,62 @@
+.prospect-page {
+    padding: 16px;
+}
+
+.prospect-page > .prospect-toolbar + * {
+    margin-top: 16px;
+}
+
+.prospect-retry-btn {
+    margin-left: 8px;
+    padding: 4px 12px;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    background: #ffffff;
+    cursor: pointer;
+    font-size: 13px;
+    color: #1677ff;
+}
+
+.prospect-retry-btn:hover {
+    border-color: #c7d2fe;
+}
+
+/* Filter popover content */
+.prospect-filter-content {
+    width: min(90vw, 360px);
+    padding: 4px 4px 0;
+}
+
+.prospect-filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 12px;
+}
+
+.prospect-filter-title {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.prospect-filter-close {
+    cursor: pointer;
+    color: #9ca3af;
+}
+
+.prospect-filter-close:hover {
+    color: #374151;
+}
+
+.prospect-filter-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.prospect-filter-footer-right {
+    display: flex;
+    gap: 10px;
+}

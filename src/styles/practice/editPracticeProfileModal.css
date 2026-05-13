@@ -1,0 +1,245 @@
+.epp-modal .ant-modal-content {
+    border-radius: 12px;
+    padding: 18px 22px 20px;
+}
+
+.epp-modal-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #f1f3f7;
+    margin-bottom: 16px;
+}
+
+.epp-modal-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.epp-modal-close.ant-btn {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    color: #6b7280;
+}
+
+.epp-modal-close.ant-btn:hover {
+    background: #f3f4f6;
+    color: #111827;
+}
+
+.epp-label {
+    font-size: 13px;
+    font-weight: 500;
+    color: #111827;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+.epp-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.epp-field .ant-input,
+.epp-field .ant-select-selector,
+.epp-field .ant-picker {
+    height: 38px;
+    border-radius: 8px;
+}
+
+.epp-field .ant-select-single .ant-select-selector {
+    align-items: center;
+    height: 38px;
+}
+
+.epp-top-row {
+    display: grid;
+    grid-template-columns: 130px minmax(0, 1fr);
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.epp-logo-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.epp-logo-upload {
+    margin-top: 0;
+    width: 100%;
+    height: 124px;
+    border: 1px dashed #c7d2fe;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #6b7280;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    font-size: 12px;
+    font-family: inherit;
+    padding: 8px 6px;
+    text-align: center;
+}
+
+.epp-logo-upload:hover {
+    border-color: #1677ff;
+    color: #1677ff;
+}
+
+.epp-logo-upload .anticon {
+    font-size: 22px;
+    color: #6b7280;
+}
+
+.epp-logo-upload:hover .anticon {
+    color: #1677ff;
+}
+
+.epp-logo-hint {
+    color: #9ca3af;
+    font-size: 11px;
+}
+
+.epp-top-fields {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px 14px;
+}
+
+.epp-grid {
+    display: grid;
+    gap: 12px 14px;
+    margin-bottom: 14px;
+}
+
+.epp-grid-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.epp-field .ant-input.ant-input-textarea-allow-clear,
+.epp-field .ant-input-textarea {
+    height: auto;
+}
+
+.epp-field .ant-input-textarea > .ant-input {
+    border-radius: 8px;
+    height: auto;
+    padding: 10px 12px;
+}
+
+.epp-qualifier-block {
+    margin-bottom: 16px;
+}
+
+.epp-qualifier-head {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) 36px;
+    align-items: center;
+    margin-bottom: 8px;
+    gap: 14px;
+}
+
+.epp-add-link {
+    background: none;
+    border: none;
+    color: #1677ff;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 13px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-family: inherit;
+    padding: 0;
+    justify-self: end;
+}
+
+.epp-add-link:hover {
+    text-decoration: underline;
+}
+
+.epp-qualifier-num-label {
+    margin-bottom: 0;
+    justify-self: start;
+}
+
+.epp-qualifier-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 36px;
+    gap: 14px;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.epp-qualifier-row .ant-select .ant-select-selector,
+.epp-qualifier-row .ant-input {
+    height: 38px;
+    border-radius: 8px;
+}
+
+.epp-qualifier-row .ant-select-single .ant-select-selector {
+    align-items: center;
+    height: 38px;
+}
+
+.epp-qualifier-remove.ant-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+}
+
+.epp-qualifier-remove.ant-btn[disabled] {
+    color: #d1d5db;
+}
+
+.epp-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-top: 14px;
+    border-top: 1px solid #f1f3f7;
+}
+
+.epp-cancel-btn.ant-btn {
+    height: 38px;
+    border-radius: 8px;
+    border-color: #d1d5db;
+    color: #111827;
+    background: #ffffff;
+    font-weight: 500;
+    box-shadow: none;
+    padding: 0 22px;
+}
+
+.epp-cancel-btn.ant-btn:hover {
+    border-color: #1677ff;
+    color: #1677ff;
+}
+
+.epp-save-btn.ant-btn {
+    height: 38px;
+    border-radius: 8px;
+    background: #1677ff;
+    border-color: #1677ff;
+    font-weight: 500;
+    box-shadow: none;
+    padding: 0 26px;
+}
+
+.epp-save-btn.ant-btn:hover {
+    background: #0e5fdc;
+    border-color: #0e5fdc;
+}
+
+.epp-save-btn.ant-btn[disabled],
+.epp-save-btn.ant-btn[disabled]:hover {
+    background: #e5e7eb;
+    border-color: #e5e7eb;
+    color: #9ca3af;
+}

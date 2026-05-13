@@ -1,0 +1,141 @@
+.bill-table .ant-table-body,
+.bill-table .ant-table-content {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.bill-table .ant-table-body::-webkit-scrollbar,
+.bill-table .ant-table-content::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.bill-table .ant-table-thead > tr > th {
+    padding: 14px 18px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #6b7280;
+    background: #f9fafb;
+    white-space: nowrap;
+}
+
+.bill-table .ant-table-tbody > tr > td {
+    padding: 16px 18px;
+    font-size: 14px;
+    color: #4b5563;
+    font-weight: 400;
+}
+
+.bill-client-cell {
+    font-weight: 700;
+    color: #111827;
+}
+
+.bill-status-tag.ant-tag {
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 2px 12px;
+    border: none;
+}
+
+.bill-status-tag.bill-status-in {
+    background: #eaf1ff;
+    color: #1677ff;
+}
+
+.bill-status-tag.bill-status-out {
+    background: #fde8e8;
+    color: #d92d20;
+}
+
+.bill-status-tag.bill-status-unpaid {
+    background: #fde8e8;
+    color: #d92d20;
+}
+
+.bill-status-tag.bill-status-partial {
+    background: #fef3c7;
+    color: #b54708;
+}
+
+.bill-status-tag.bill-status-paid {
+    background: #e7f7ee;
+    color: #0a7c3a;
+}
+
+.bill-row-action-btn.ant-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    color: #6b7280;
+    box-shadow: none;
+}
+
+.bill-row-action-btn.ant-btn:hover {
+    background: #f3f4f6;
+    color: #111827;
+}
+
+.bill-add-payment-btn.ant-btn {
+    height: 32px;
+    border-radius: 8px;
+    background: #eaf1ff;
+    border-color: #c7dbff;
+    color: #1677ff;
+    font-weight: 500;
+    box-shadow: none;
+    padding: 0 14px;
+}
+
+.bill-add-payment-btn.ant-btn:hover {
+    background: #d6e4ff;
+    border-color: #1677ff;
+    color: #1677ff;
+}
+
+.bill-add-payment-btn.ant-btn.is-paid {
+    background: #ffffff;
+    border-color: #e5e7eb;
+    color: #6b7280;
+}
+
+.bill-add-payment-btn.ant-btn.is-paid:hover {
+    border-color: #d1d5db;
+    color: #4b5563;
+    background: #f9fafb;
+}
+
+.bill-invoice-action-cell {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.bill-superbill-table .ant-table-thead > tr > th,
+.bill-superbill-table .ant-table-tbody > tr > td,
+.bill-invoices-table .ant-table-thead > tr > th,
+.bill-invoices-table .ant-table-tbody > tr > td,
+.bill-receipts-table .ant-table-thead > tr > th,
+.bill-receipts-table .ant-table-tbody > tr > td {
+    padding: 12px 10px;
+}
+
+.bill-superbill-table .ant-table-thead > tr > th:first-child,
+.bill-superbill-table .ant-table-tbody > tr > td:first-child,
+.bill-invoices-table .ant-table-thead > tr > th:first-child,
+.bill-invoices-table .ant-table-tbody > tr > td:first-child,
+.bill-receipts-table .ant-table-thead > tr > th:first-child,
+.bill-receipts-table .ant-table-tbody > tr > td:first-child {
+    padding-left: 14px;
+}
+
+.bill-superbill-table .ant-table-thead > tr > th:last-child,
+.bill-superbill-table .ant-table-tbody > tr > td:last-child,
+.bill-invoices-table .ant-table-thead > tr > th:last-child,
+.bill-invoices-table .ant-table-tbody > tr > td:last-child,
+.bill-receipts-table .ant-table-thead > tr > th:last-child,
+.bill-receipts-table .ant-table-tbody > tr > td:last-child {
+    padding-right: 14px;
+}

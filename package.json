@@ -1,0 +1,52 @@
+{
+  "name": "demo1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "server": "json-server inquiryData.json --port 5000",
+    "server:prospects": "json-server prospectData.json --port 5001",
+    "server:clients": "json-server clientData.json --port 5002",
+    "server:groups": "json-server groupData.json --port 5003",
+    "server:appointments": "json-server appointmentData.json --port 5004",
+    "server:tasks": "json-server taskData.json --port 5005",
+    "server:toxicology": "json-server toxicologyData.json --port 5006",
+    "server:billing": "json-server billingData.json --port 5007",
+    "server:appointmentSettings": "json-server appointmentSettingsData.json --port 5008",
+    "server:providerAccount": "json-server providerAccountData.json --port 5009",
+    "server:practiceSettings": "json-server practiceSettingsData.json --port 5010",
+    "server:patientCommunications": "json-server patientCommunicationsData.json --port 5011",
+    "server:masterSettings": "json-server masterSettingsData.json --port 5012",
+    "server:templates": "json-server templatesData.json --port 5013",
+    "server:feeSchedule": "json-server feeScheduleData.json --port 5014",
+    "server:reports": "json-server reportsData.json --port 5015"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.11.2",
+    "@tanstack/react-query": "^5.100.6",
+    "@tanstack/react-query-devtools": "^5.100.6",
+    "antd": "^6.3.7",
+    "axios": "^1.15.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-icons": "^5.6.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.14.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "json-server": "^1.0.0-beta.15",
+    "vite": "^7.3.1"
+  }
+}

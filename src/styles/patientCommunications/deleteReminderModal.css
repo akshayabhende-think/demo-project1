@@ -1,0 +1,71 @@
+.del-modal .ant-modal-content {
+    border-radius: 14px;
+    padding: 28px 26px 22px;
+    text-align: center;
+}
+
+.del-modal-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #fde8e8;
+    color: #d92d20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 14px;
+    font-size: 26px;
+}
+
+.del-modal-title {
+    margin: 0 0 8px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.del-modal-message {
+    margin: 0 0 22px;
+    color: #4b5563;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.del-modal-footer {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.del-cancel-btn.ant-btn {
+    height: 38px;
+    border-radius: 8px;
+    border-color: #d1d5db;
+    color: #111827;
+    background: #ffffff;
+    font-weight: 500;
+    box-shadow: none;
+    padding: 0 22px;
+}
+
+.del-cancel-btn.ant-btn:hover {
+    border-color: #1677ff;
+    color: #1677ff;
+}
+
+.del-confirm-btn.ant-btn {
+    height: 38px;
+    border-radius: 8px;
+    background: #d92d20;
+    border-color: #d92d20;
+    color: #ffffff;
+    font-weight: 500;
+    box-shadow: none;
+    padding: 0 26px;
+}
+
+.del-confirm-btn.ant-btn:hover {
+    background: #b42318;
+    border-color: #b42318;
+    color: #ffffff;
+}

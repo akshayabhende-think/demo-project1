@@ -1,0 +1,139 @@
+.af-modal .ant-modal-content {
+    border-radius: 12px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.af-modal-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 22px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.af-modal-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.af-modal-close.ant-btn {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    color: #6b7280;
+}
+
+.af-modal-close.ant-btn:hover {
+    background: #f3f4f6;
+    color: #111827;
+}
+
+.af-body {
+    padding: 16px 22px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.af-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.af-label {
+    font-size: 13px;
+    font-weight: 500;
+    color: #111827;
+}
+
+.af-field .ant-input,
+.af-field .ant-select-selector,
+.af-field .ant-picker {
+    height: 40px;
+    border-radius: 8px;
+    border-color: #e5e7eb;
+    box-shadow: none;
+    font-size: 13px;
+    color: #111827;
+}
+
+.af-field .ant-select-single .ant-select-selector {
+    align-items: center;
+}
+
+.af-field .ant-input:hover,
+.af-field .ant-input:focus,
+.af-field .ant-picker:hover,
+.af-field .ant-picker-focused,
+.af-field .ant-select:not(.ant-select-disabled):hover .ant-select-selector,
+.af-field .ant-select-focused .ant-select-selector {
+    border-color: #1677ff !important;
+    box-shadow: none !important;
+}
+
+.af-modal-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 22px;
+    border-top: 1px solid #e5e7eb;
+    background: #ffffff;
+}
+
+.af-footer-right {
+    display: flex;
+    gap: 10px;
+}
+
+.af-cancel-btn.ant-btn {
+    height: 38px;
+    border-radius: 8px;
+    border-color: #d1d5db;
+    color: #111827;
+    background: #ffffff;
+    font-weight: 500;
+    box-shadow: none;
+    padding: 0 22px;
+}
+
+.af-cancel-btn.ant-btn:hover {
+    border-color: #1677ff;
+    color: #1677ff;
+}
+
+.af-reset-btn.ant-btn {
+    height: 38px;
+    border-radius: 8px;
+    border-color: #d1d5db;
+    color: #111827;
+    background: #ffffff;
+    font-weight: 500;
+    box-shadow: none;
+    padding: 0 18px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.af-reset-btn.ant-btn:hover {
+    border-color: #1677ff;
+    color: #1677ff;
+}
+
+.af-apply-btn.ant-btn {
+    height: 38px;
+    border-radius: 8px;
+    background: #1677ff;
+    border-color: #1677ff;
+    font-weight: 500;
+    box-shadow: none;
+    padding: 0 22px;
+}
+
+.af-apply-btn.ant-btn:hover {
+    background: #0e5fdc;
+    border-color: #0e5fdc;
+}
